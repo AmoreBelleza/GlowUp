@@ -552,17 +552,17 @@
 					transition: transform 0.3s ease, box-shadow 0.3s ease;
 					height: 100%;
 				">
-				<div class="product-img position-relative" style="height: auto">
-	<img class="img-fluid w-100" src="${product.image}" alt="${product.title}" 
-		style="width: 100%; height: auto; display: block" />
-	<span class="position-absolute top-0 end-0 m-2 badge" 
-		style="font-size: 11px; padding: 6px 10px; border-radius: 20px; 
-		background: ${product.available ? '#a8d5ba' : '#ffcccb'}; 
-		color: ${product.available ? '#1a4d2e' : '#8b0000'}; 
-		font-weight: 600; font-family: 'Montserrat', 'Arial', sans-serif">
-		${product.available ? 'Disponible' : 'Agotado'}
-	</span>
-</div>
+				<div class="product-img position-relative">
+					<img class="img-fluid w-100" src="${product.image}" alt="${product.title}" 
+						style="height: 200px; object-fit: cover" />
+					<span class="position-absolute top-0 end-0 m-2 badge" 
+						style="font-size: 11px; padding: 6px 10px; border-radius: 20px; 
+						background: ${product.available ? '#a8d5ba' : '#ffcccb'}; 
+						color: ${product.available ? '#1a4d2e' : '#8b0000'}; 
+						font-weight: 600; font-family: 'Montserrat', 'Arial', sans-serif">
+						${product.available ? 'Disponible' : 'Agotado'}
+					</span>
+				</div>
 				<div class="product-content p-3 d-flex flex-column flex-grow-1" 
 					style="background: ${getBackgroundColor(product.menu)}">
 					<h5 class="mb-2"  
