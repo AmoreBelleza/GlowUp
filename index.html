@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Amore Belleza Catalogo</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="keywords" />
+		<meta content="" name="description" />
+
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet" />
+
+		<!-- Icon Font Stylesheet -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+		<!-- Libraries Stylesheet -->
+		<link href="lib/animate/animate.min.css" rel="stylesheet" />
+		<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Template Stylesheet -->
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- Spinner Start -->
+		<div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+			<div class="spinner-grow text-primary" role="status"></div>
+		</div>
+		<!-- Spinner End -->
+
+		<!-- Navbar start -->
+		<!-- Navbar start -->
+		<div class="container-fluid sticky-top px-0">
+			<div class="container-fluid" style="background-color: #ffe5ec">
+				<div class="container px-0">
+					<nav class="navbar navbar-light">
+						<a href="index.html" class="navbar-brand">
+							<h1 class="text-primary display-6" style="font-family: 'Playfair Display', 'Georgia', serif; font-weight: 400; letter-spacing: 1px">Amore</h1>
+							<h1 class="text-primary display-6" style="font-family: 'Playfair Display', 'Georgia', serif; font-weight: 400; letter-spacing: 1px">Belleza</h1>
+						</a>
+						<!-- Buscador y Botón -->
+						<div class="d-flex align-items-center gap-2">
+							<div class="input-group" style="max-width: 180px">
+								<input
+									type="text"
+									class="form-control form-control-sm"
+									placeholder="Buscar producto..."
+									style="
+										border: 1px solid #e0e0e0;
+										border-right: none;
+										font-size: 13px;
+										font-family: 'Montserrat', 'Arial', sans-serif;
+										background-color: #fff;
+										padding: 6px 12px;
+										outline: none;
+										box-shadow: none;
+									"
+									onfocus="
+										this.style.borderColor = '#e0e0e0';
+										this.nextElementSibling.style.borderColor = '#e0e0e0';
+									"
+									onblur="
+										this.style.borderColor = '#e0e0e0';
+										this.nextElementSibling.style.borderColor = '#e0e0e0';
+									"
+								/>
+								<span class="input-group-text" style="background-color: #fff; border: 1px solid #e0e0e0; border-left: none; cursor: pointer">
+									<i class="fa fa-search" style="color: #ff69b4; font-size: 14px"></i>
+								</span>
+							</div>
+							<!-- Botón Cómo Comprar -->
+							<button class="btn btn-sm">
+								<i class="fas fa-shopping-cart me-1" style="color: var(--bs-primary); font-size: 22px" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
+							</button>
+						</div>
+						<div class="d-flex flex-column align-items-center mx-auto position-relative">
+							<!-- Título -->
+							<div class="text-center text-primary" style="font-size: 15px; letter-spacing: 1px; font-weight: 400; width: 100%; font-family: 'Montserrat', 'Arial', sans-serif">
+								Nuestros productos
+							</div>
+							<!-- Menú con flechas -->
+							<div class="d-flex align-items-center">
+								<button class="btn btn-sm me-2" id="scrollLeft" style="width: 24px; height: 24px; padding: 0; background: transparent; border: none; color: #999">
+									<i class="fas fa-chevron-left" style="font-size: 12px"></i>
+								</button>
+								<!-- Contenedor del menú -->
+								<div class="menu-viewport" style="overflow: hidden; width: 250px">
+									<ul
+										class="navbar-nav d-flex flex-row mb-0"
+										id="menuContainer"
+										style="transition: transform 0.3s ease; font-family: 'Montserrat', 'Arial', sans-serif; list-style: none; padding: 0"
+									>
+										<li class="nav-item nav-link menu-link" data-menu-id="1">Cremas</li>
+										<li class="nav-item nav-link menu-link" data-menu-id="2">Serum</li>
+										<li class="nav-item nav-link menu-link" data-menu-id="3">Protector Solar</li>
+										<li class="nav-item nav-link menu-link" data-menu-id="4">Mascarillas y Parches</li>
+										<li class="nav-item nav-link menu-link" data-menu-id="5">Otros productos</li>
+										<li class="nav-item nav-link menu-link" data-menu-id="6"></li>
+									</ul>
+								</div>
+
+								<button class="btn btn-sm ms-2" id="scrollRight" style="width: 24px; height: 24px; padding: 0; background: transparent; border: none; color: #999">
+									<i class="fas fa-chevron-right" style="font-size: 12px"></i>
+								</button>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- Navbar End -->
+
+		<!-- Modal Search Start -->
+		<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="true" data-bs-keyboard="true">
+			<div class="modal-dialog modal-dialog-centered" style="max-width: 80vw; margin: auto">
+				<div class="modal-content" style="height: 60vh">
+					<div class="modal-header" style="border: none; padding: 10px">
+						<button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body d-flex align-items-center justify-content-center" data-bs-dismiss="modal" style="cursor: pointer; overflow: auto; padding: 0">aqui la imagen</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Search End -->
+
+		<!-- Services Start -->
+		<div class="container-fluid services py-4">
+			<div class="container">
+				<div class="mx-auto text-center mb-4" style="max-width: 800px">
+					<div style="background: #fff; border-left: 4px solid var(--bs-primary); padding: 20px 30px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); border-radius: 8px">
+						<p class="text-primary fs-4 text-uppercase mb-0" style="color: #333; font-weight: 600; letter-spacing: 1.5px">
+							<i class="fas fa-shopping-basket me-2" style="color: var(--bs-primary)"></i>
+							Revisa nuestro catálogo
+						</p>
+					</div>
+				</div>
+
+				<!-- <div class="row g-4 justify-content-center">
+					Card 1 - Rosa Pastel
+					<div class="col-6">
+						<div
+							class="product-card d-flex flex-column"
+							style="
+								border-radius: 12px;
+								overflow: hidden;
+								box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+								transition:
+									transform 0.3s ease,
+									box-shadow 0.3s ease;
+								height: 100%;
+							"
+						>
+							<div class="product-img position-relative">
+								<img class="img-fluid w-100" src="img/services-1.jpeg" alt="Producto" style="height: 200px; object-fit: cover" />
+								<span class="position-absolute top-0 end-0 m-2 badge" style="font-size: 11px; padding: 6px 10px; border-radius: 20px; background: #a8d5ba; color: #1a4d2e; font-weight: 600"
+									>Disponible</span
+								>
+							</div>
+							<div class="product-content p-3 d-flex flex-column flex-grow-1" style="background: #ffe5ec">
+								<h5 class="mb-2" style="font-weight: 400; color: #333; font-size: 16px; height: 48px; overflow: hidden; font-family: 'Playfair Display', 'Georgia', serif">
+									Crema Hidratante
+								</h5>
+								<p class="mb-3 flex-grow-1" style="font-size: 13px; color: #666; line-height: 1.5; height: 60px; overflow: hidden; font-family: 'Poppins', sans-serif; font-weight: 300">
+									Sellador y convertidor de maquillaje líquido e impermeable. Fórmula Líquida
+								</p>
+								<div class="d-flex justify-content-between align-items-center mt-auto">
+									<span style="font-size: 17px; font-weight: 600; color: #c2185b; font-family: 'Poppins', sans-serif">Bs. 28.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					Card 2 - Celeste Pastel
+					<div class="col-6">
+						<div
+							class="product-card d-flex flex-column"
+							style="
+								border-radius: 12px;
+								overflow: hidden;
+								box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+								transition:
+									transform 0.3s ease,
+									box-shadow 0.3s ease;
+								height: 100%;
+							"
+						>
+							<div class="product-img position-relative">
+								<img class="img-fluid w-100" src="img/services-2.jpeg" alt="Producto" style="height: 200px; object-fit: cover" />
+								<span class="position-absolute top-0 end-0 m-2 badge" style="font-size: 11px; padding: 6px 10px; border-radius: 20px; background: #ffd4a3; color: #8f4a1a; font-weight: 600"
+									>Sin Stock</span
+								>
+							</div>
+							<div class="product-content p-3 d-flex flex-column flex-grow-1" style="background: #d4ebf2">
+								<h5 class="mb-2" style="font-weight: 400; color: #333; font-size: 16px; height: 48px; overflow: hidden; font-family: 'Poppins', sans-serif">Sérum Facial</h5>
+								<p class="mb-3 flex-grow-1" style="font-size: 13px; color: #666; line-height: 1.5; height: 60px; overflow: hidden; font-family: 'Poppins', sans-serif; font-weight: 300">
+									Tratamiento intensivo para piel radiante. Absorción rápida
+								</p>
+								<div class="d-flex justify-content-between align-items-center mt-auto">
+									<span style="font-size: 17px; font-weight: 600; color: #c2185b; font-family: 'Poppins', sans-serif">Bs. 28.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					Card 3 - Verde Pastel
+					<div class="col-6">
+						<div
+							class="product-card d-flex flex-column"
+							style="
+								border-radius: 12px;
+								overflow: hidden;
+								box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+								transition:
+									transform 0.3s ease,
+									box-shadow 0.3s ease;
+								height: 100%;
+							"
+						>
+							<div class="product-img position-relative">
+								<img class="img-fluid w-100" src="img/services-1.jpeg" alt="Producto" style="height: 200px; object-fit: cover" />
+								<span class="position-absolute top-0 end-0 m-2 badge" style="font-size: 11px; padding: 6px 10px; border-radius: 20px; background: #a8d5ba; color: #1a4d2e; font-weight: 600"
+									>Disponible</span
+								>
+							</div>
+							<div class="product-content p-3 d-flex flex-column flex-grow-1" style="background: #fff9d4">
+								<h5 class="mb-2" style="font-weight: 400; color: #333; font-size: 16px; height: 48px; overflow: hidden; font-family: 'Poppins', sans-serif">Mascarilla Detox</h5>
+								<p class="mb-3 flex-grow-1" style="font-size: 13px; color: #666; line-height: 1.5; height: 60px; overflow: hidden; font-family: 'Poppins', sans-serif; font-weight: 300">
+									Purifica y revitaliza tu piel. Ingredientes naturales
+								</p>
+								<div class="d-flex justify-content-between align-items-center mt-auto">
+									<span style="font-size: 17px; font-weight: 600; color: #c2185b; font-family: 'Poppins', sans-serif">Bs. 28.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					Card 4 - Lila Pastel
+					<div class="col-6">
+						<div
+							class="product-card d-flex flex-column"
+							style="
+								border-radius: 12px;
+								overflow: hidden;
+								box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+								transition:
+									transform 0.3s ease,
+									box-shadow 0.3s ease;
+								height: 100%;
+							"
+						>
+							<div class="product-img position-relative">
+								<img class="img-fluid w-100" src="img/services-2.jpeg" alt="Producto" style="height: 200px; object-fit: cover" />
+								<span class="position-absolute top-0 end-0 m-2 badge" style="font-size: 11px; padding: 6px 10px; border-radius: 20px; background: #ffd4a3; color: #8f4a1a; font-weight: 600"
+									>Sin Stock</span
+								>
+							</div>
+							<div class="product-content p-3 d-flex flex-column flex-grow-1" style="background: #e8d4f1">
+								<h5 class="mb-2" style="font-weight: 400; color: #333; font-size: 16px; height: 48px; overflow: hidden; font-family: 'Poppins', sans-serif">Contorno de Ojos</h5>
+								<p class="mb-3 flex-grow-1" style="font-size: 13px; color: #666; line-height: 1.5; height: 60px; overflow: hidden; font-family: 'Poppins', sans-serif; font-weight: 300">
+									Reduce ojeras y líneas de expresión. Fórmula suave
+								</p>
+								<div class="d-flex justify-content-between align-items-center mt-auto">
+									<span style="font-size: 17px; font-weight: 600; color: #c2185b; font-family: 'Poppins', sans-serif">Bs. 28.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					Card 5 - Melocotón Pastel
+					<div class="col-6">
+						<div
+							class="product-card d-flex flex-column"
+							style="
+								border-radius: 12px;
+								overflow: hidden;
+								box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+								transition:
+									transform 0.3s ease,
+									box-shadow 0.3s ease;
+								height: 100%;
+							"
+						>
+							<div class="product-img position-relative">
+								<img class="img-fluid w-100" src="img/services-1.jpeg" alt="Producto" style="height: 200px; object-fit: cover" />
+								<span class="position-absolute top-0 end-0 m-2 badge" style="font-size: 11px; padding: 6px 10px; border-radius: 20px; background: #ffd4a3; color: #8f4a1a; font-weight: 600"
+									>Sin Stock</span
+								>
+							</div>
+							<div class="product-content p-3 d-flex flex-column flex-grow-1" style="background: #fce4d4">
+								<h5 class="mb-2" style="font-weight: 400; color: #333; font-size: 16px; height: 48px; overflow: hidden; font-family: 'Poppins', sans-serif">Exfoliante Suave</h5>
+								<p class="mb-3 flex-grow-1" style="font-size: 13px; color: #666; line-height: 1.5; height: 60px; overflow: hidden; font-family: 'Poppins', sans-serif; font-weight: 300">
+									Renueva tu piel con delicadeza. Micropartículas naturales
+								</p>
+								<div class="d-flex justify-content-between align-items-center mt-auto">
+									<span style="font-size: 17px; font-weight: 600; color: #c2185b; font-family: 'Poppins', sans-serif">Bs. 28.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+				<div class="row g-4 justify-content-center" id="productsContainer">
+					<!-- Los productos se cargarán aquí dinámicamente -->
+				</div>
+			</div>
+		</div>
+		<!-- Services End -->
+
+		<!-- Copyright Start -->
+		<div class="container-fluid copyright py-4">
+			<div class="container">
+				<div class="row g-4 align-items-center">
+					<div class="col-md-6">
+						<div class="d-flex justify-content-center">
+							<a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
+							<a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+							<a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a>
+							<a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-tiktok"></i></a>
+						</div>
+					</div>
+					<div class="col-md-6 text-center text-md-end text-white">
+						<p class="mb-0"><i class="fas fa-phone text-secondary me-2"></i> (+591) 71894909</p>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-md-7 text-center text-md-end text-white">
+						<span class="text-light" style="font-size: 12px">
+							<a href="#"><i class="fas fa-copyright text-light me-2"></i>Amore Belleza</a>, Todos los derechos reservados.
+						</span>
+					</div>
+					<div class="col-md-5 text-center text-md-end text-white">
+						<span class="text-light ms-3 ps-3" style="font-size: 12px"> Potenciado por <a href="#">AsiSure</a> </span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Copyright End -->
+
+		<!-- Back to Top -->
+		<a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+		<!-- JavaScript Libraries -->
+		<script>
+			const menuContainer = document.getElementById('menuContainer');
+			const scrollLeft = document.getElementById('scrollLeft');
+			const scrollRight = document.getElementById('scrollRight');
+
+			const menuItems = menuContainer.querySelectorAll('.nav-item');
+			const itemWidth = 100; // Ancho de cada item
+			const visibleItems = 2; // Cantidad de items visibles
+			let currentIndex = 0;
+
+			// Variables para el arrastre mejorado
+			let isDragging = false;
+			let startPos = 0;
+			let currentTranslate = 0;
+			let prevTranslate = 0;
+			let velocity = 0;
+			let lastMoveTime = Date.now();
+			let lastMovePos = 0;
+
+			function updateMenuPosition(animate = true) {
+				const offset = -currentIndex * itemWidth;
+				if (animate) {
+					menuContainer.style.transition = 'transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+				} else {
+					menuContainer.style.transition = 'none';
+				}
+				menuContainer.style.transform = `translateX(${offset}px)`;
+				prevTranslate = offset;
+				currentTranslate = offset;
+			}
+
+			function touchStart(event) {
+				isDragging = true;
+				startPos = getPositionX(event);
+				lastMovePos = startPos;
+				lastMoveTime = Date.now();
+				velocity = 0;
+				menuContainer.style.transition = 'none';
+				menuContainer.style.cursor = 'grabbing';
+			}
+
+			function touchMove(event) {
+				if (isDragging) {
+					event.preventDefault();
+					const currentPosition = getPositionX(event);
+					const currentTime = Date.now();
+
+					// Calcular velocidad
+					const timeDelta = currentTime - lastMoveTime;
+					if (timeDelta > 0) {
+						velocity = (currentPosition - lastMovePos) / timeDelta;
+					}
+
+					lastMovePos = currentPosition;
+					lastMoveTime = currentTime;
+
+					currentTranslate = prevTranslate + currentPosition - startPos;
+
+					// Aplicar resistencia en los bordes
+					const maxTranslate = 0;
+					const minTranslate = -(menuItems.length - visibleItems) * itemWidth;
+
+					if (currentTranslate > maxTranslate) {
+						currentTranslate = maxTranslate + (currentTranslate - maxTranslate) * 0.3;
+					} else if (currentTranslate < minTranslate) {
+						currentTranslate = minTranslate + (currentTranslate - minTranslate) * 0.3;
+					}
+
+					menuContainer.style.transform = `translateX(${currentTranslate}px)`;
+				}
+			}
+
+			function touchEnd() {
+				if (!isDragging) return;
+
+				isDragging = false;
+				menuContainer.style.cursor = 'grab';
+
+				const movedBy = currentTranslate - prevTranslate;
+
+				// Calcular desplazamiento basado en velocidad (inercia)
+				const inertiaDistance = velocity * 200; // Ajustar multiplicador para más/menos inercia
+				const totalMove = movedBy + inertiaDistance;
+
+				// Calcular nuevo índice basado en el movimiento total
+				const moveThreshold = itemWidth * 0.3; // 30% del ancho del item
+				const indexChange = Math.round(totalMove / itemWidth);
+
+				currentIndex = Math.max(0, Math.min(menuItems.length - visibleItems, currentIndex - indexChange));
+
+				menuContainer.style.transition = 'transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)';
+				updateMenuPosition(true);
+			}
+
+			function getPositionX(event) {
+				return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+			}
+
+			// Event listeners para mouse
+			menuContainer.addEventListener('mousedown', touchStart);
+			menuContainer.addEventListener('mousemove', touchMove);
+			menuContainer.addEventListener('mouseup', touchEnd);
+			menuContainer.addEventListener('mouseleave', touchEnd);
+
+			// Event listeners para touch (móvil)
+			menuContainer.addEventListener('touchstart', touchStart, { passive: false });
+			menuContainer.addEventListener('touchmove', touchMove, { passive: false });
+			menuContainer.addEventListener('touchend', touchEnd);
+
+			// Prevenir comportamiento por defecto en los enlaces durante el arrastre
+			menuContainer.addEventListener('click', function (e) {
+				if (Math.abs(currentTranslate - prevTranslate) > 5) {
+					e.preventDefault();
+				}
+			});
+
+			// Estilo del cursor
+			menuContainer.style.cursor = 'grab';
+
+			// Botones de navegación mejorados
+			scrollRight.addEventListener('click', function () {
+				currentIndex = Math.min(currentIndex + 1, menuItems.length - visibleItems);
+				updateMenuPosition(true);
+			});
+
+			scrollLeft.addEventListener('click', function () {
+				currentIndex = Math.max(currentIndex - 1, 0);
+				updateMenuPosition(true);
+			});
+
+			// Variable global para almacenar los productos
+			let products = [];
+
+			// Función para cargar productos desde JSON
+			async function loadProducts() {
+				try {
+					const response = await fetch('products.json');
+					if (!response.ok) {
+						throw new Error('Error al cargar productos');
+					}
+					products = await response.json();
+					return Promise.resolve();
+				} catch (error) {
+					console.error('Error cargando productos:', error);
+					document.getElementById('productsContainer').innerHTML = `
+			<div class="col-12 no-products">
+				<i class="fas fa-exclamation-triangle fa-3x mb-3"></i>
+				<p>Error al cargar los productos. Por favor, intenta nuevamente.</p>
+			</div>
+		`;
+					return Promise.reject(error);
+				}
+			}
+
+			// Función para obtener el color de fondo según el menú
+			function getBackgroundColor(menuId) {
+				const colors = {
+					1: '#ffe5ec',
+					2: '#d4ebf2',
+					3: '#fff9d4',
+					4: '#e8d4f1',
+					5: '#fce4d4',
+				};
+				return colors[menuId] || '#ffe5ec';
+			}
+
+			function truncateDescription(text, maxWords = 15) {
+				const words = text.trim().split(/\s+/);
+				if (words.length <= maxWords) {
+					return text;
+				}
+				return words.slice(0, maxWords).join(' ') + '...';
+			}
+
+			// Función para renderizar productos
+			function renderProducts(menuId) {
+				const container = document.getElementById('productsContainer');
+
+				// Filtrar productos según el menú (sin opción "Inicio")
+				const filteredProducts = products.filter(p => p.menu === menuId);
+
+				// Si no hay productos
+				if (filteredProducts.length === 0) {
+					container.innerHTML = `
+			<div class="col-12 no-products">
+				<i class="fas fa-inbox fa-3x mb-3"></i>
+				<p>No hay productos disponibles en esta categoría</p>
+			</div>
+		`;
+					return;
+				}
+
+				// Renderizar productos
+				container.innerHTML = filteredProducts
+					.map(
+						product => `
+		<div class="col-6 col-md-4 col-lg-3">
+			<div class="product-card d-flex flex-column"
+				style="
+					border-radius: 12px;
+					overflow: hidden;
+					box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+					transition: transform 0.3s ease, box-shadow 0.3s ease;
+					height: 100%;
+				">
+				<div class="product-img position-relative">
+					<img class="img-fluid w-100" src="${product.image}" alt="${product.title}" 
+						style="height: 200px; object-fit: cover" />
+					<span class="position-absolute top-0 end-0 m-2 badge" 
+						style="font-size: 11px; padding: 6px 10px; border-radius: 20px; 
+						background: ${product.available ? '#a8d5ba' : '#ffcccb'}; 
+						color: ${product.available ? '#1a4d2e' : '#8b0000'}; 
+						font-weight: 600; font-family: 'Montserrat', 'Arial', sans-serif">
+						${product.available ? 'Disponible' : 'Agotado'}
+					</span>
+				</div>
+				<div class="product-content p-3 d-flex flex-column flex-grow-1" 
+					style="background: ${getBackgroundColor(product.menu)}">
+					<h5 class="mb-2"  
+						style="font-weight: 400; color: #333; font-size: 16px; min-height: 48px; height: auto;
+						font-family: 'Playfair Display', 'Georgia', serif;  
+						letter-spacing: 0.5px"> 
+						${product.title} 
+					</h5>
+					<p class="mb-3 flex-grow-1" 
+						style="font-size: 13px; color: #888; line-height: 1.6; 
+						font-family: 'Montserrat', 'Arial', sans-serif; 
+						font-weight: 300">
+						${truncateDescription(product.sort_description)}
+					</p>
+					<div class="d-flex justify-content-between align-items-center mt-auto">
+						<span style="font-size: 17px; font-weight: 600; color: #c2185b; 
+							font-family: 'Montserrat', 'Arial', sans-serif">
+							Bs. ${product.price.toFixed(2)}
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	`
+					)
+					.join('');
+			}
+
+			// Manejar clicks en el menú
+			document.querySelectorAll('.menu-link').forEach(menuItem => {
+				menuItem.addEventListener('click', function (e) {
+					// Prevenir click si hubo arrastre
+					if (Math.abs(currentTranslate - prevTranslate) > 5) {
+						e.preventDefault();
+						return;
+					}
+
+					// Remover active de todos
+					document.querySelectorAll('.menu-link').forEach(item => {
+						item.classList.remove('active');
+					});
+
+					// Agregar active al seleccionado
+					this.classList.add('active');
+
+					// Obtener el ID del menú
+					const menuId = parseInt(this.getAttribute('data-menu-id'));
+
+					// Renderizar productos filtrados
+					renderProducts(menuId);
+				});
+			});
+
+			// Activar el primer menú (id=1) por defecto
+			function initializeMenu() {
+				const firstMenuItem = document.querySelector('.menu-link[data-menu-id="1"]');
+				if (firstMenuItem) {
+					firstMenuItem.classList.add('active');
+					renderProducts(1);
+				}
+			}
+
+			// Cargar todos los productos al inicio
+			loadProducts().then(() => {
+				initializeMenu();
+			});
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+		<script src="lib/easing/easing.min.js"></script>
+		<script src="lib/waypoints/waypoints.min.js"></script>
+
+		<!-- Template Javascript -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
+<style>
+	:root {
+		/* Colores principales */
+		--bg-pastel-pink: #ffe5ec;
+		--text-primary: #333;
+		--text-secondary: #666;
+		--text-muted: #888;
+		--text-light: #999;
+
+		/* Bordes y divisores */
+		--border-light: #e0e0e0;
+		--border-lighter: #eee;
+
+		/* Productos - Badges */
+		--badge-available-bg: #a8d5ba;
+		--badge-available-text: #1a4d2e;
+		--badge-stock-bg: #ffd4a3;
+		--badge-stock-text: #8f4a1a;
+
+		/* Sombras */
+		--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+		--shadow-md: 0 4px 15px rgba(0, 0, 0, 0.1);
+	}
+
+	.services-description {
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.marca-section {
+		margin-bottom: 3rem;
+	}
+
+	.menu-viewport .nav-link {
+		font-weight: 400;
+		color: #666;
+		transition: color 0.2s ease;
+	}
+
+	.menu-viewport .nav-link.active {
+		color: #333;
+		font-weight: 500;
+	}
+
+	.menu-viewport .nav-link:hover {
+		color: #333;
+	}
+
+	.product-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12) !important;
+	}
+
+	.product-card .btn:hover {
+		transform: scale(1.05);
+	}
+
+	.no-products {
+		text-align: center;
+		padding: 60px 20px;
+		color: #888;
+		font-family: 'Montserrat', 'Arial', sans-serif;
+	}
+
+	.menu-link {
+		text-align: center;
+		padding: 4px 8px;
+		font-weight: 400;
+		white-space: nowrap;
+		border-right: 1px solid #e0e0e0;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+
+	.menu-link:last-child {
+		border-right: none;
+	}
+
+	.menu-link:hover {
+		background-color: rgba(255, 105, 180, 0.1);
+	}
+
+	.menu-link.active {
+		background-color: rgba(255, 105, 180, 0.2);
+		font-weight: 500;
+	}
+</style>

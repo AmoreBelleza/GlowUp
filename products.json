@@ -1,0 +1,105 @@
+[
+	{
+		"id": 114,
+		"image": "img/services-3.jpeg",
+		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
+		"title": "Contorno de Ojos",
+		"sort_description": "Reduce ojeras y líneas de expresión. Fórmula suave",
+		"long_description": "Reduce ojeras y líneas de expresión. Fórmula suave",
+		"available": true,
+		"price": 29.99,
+		"menu": 3
+	},
+	{
+		"id": 115,
+		"image": "img/services-4.jpeg",
+		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
+		"title": "Exfoliante Suave",
+		"sort_description": "Renueva tu piel con delicadeza. Micropartículas naturales",
+		"long_description": "Renueva tu piel con delicadeza. Micropartículas naturales",
+		"available": false,
+		"price": 29.99,
+		"menu": 4
+	},
+	{
+		"id": 116,
+		"image": "img/services-4.jpeg",
+		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
+		"title": "Exfoliante Suave 1",
+		"sort_description": "Sellador y convertidor e impermeable. Fórmula Líquida",
+		"long_description": "Sellador y convertidor de maquillaje líquido Fórmula Líquida",
+		"available": true,
+		"price": 29.99,
+		"menu": 5
+	},
+	{
+		"id": 1,
+		"image": "img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg",
+		"all_images": [
+			"img/suero-acido-hialuronico-arroz-15ml/1-suero-acido-hialuronico-arroz-15ml.jpg", 
+			"img/suero-acido-hialuronico-arroz-15ml/2-suero-acido-hialuronico-arroz-15ml.jpg", 
+			"img/suero-acido-hialuronico-arroz-15ml/3-suero-acido-hialuronico-arroz-15ml.jpg","img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg"
+		],
+		"title": "Suero de ácido hialurónico de arroz",
+		"sort_description": "Suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica.",
+		"long_description": ["suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica."],
+		"how_to_use": [
+			"Limpia tu rostro.",
+			"Aplica 2–3 gotas de la cantidad adecuada del líquido en la frente.",
+			"Masajea suavemente hasta que se absorba.",
+			"Masajea suavemente en el rostro."
+		],
+		"available": true,
+		"price": 30.00,
+		"menu": 2
+	},
+	{
+		"id": 2,
+		"image": "img/crema-hidratante-reparadora-con-acido-hialurónico/1-crema-hidratante-reparadora-con-acido-hialurónico.jpg",
+		"all_images": [
+			"img/crema-hidratante-reparadora-con-acido-hialurónico/1-crema-hidratante-reparadora-con-acido-hialurónico.jpg", 
+			"img/crema-hidratante-reparadora-con-acido-hialurónico/2-crema-hidratante-reparadora-con-acido-hialurónico.jpg", 
+			"img/crema-hidratante-reparadora-con-acido-hialurónico/3-crema-hidratante-reparadora-con-acido-hialurónico.jpg"
+		],
+		"title": "Crema hidratante reparadora con ácido hialurónico",
+		"sort_description": "Crema hidratante y suave. Ayuda a que la piel seca y deshidratada se llene de humedad. Mejora el equilibrio agua-lípidos y hace que la piel luzca más atractiva.",
+		"long_description": [
+			"Hidratante y suave. Ayuda a que la piel seca y deshidratada se llene de humedad. Mejora el equilibrio agua-lípidos y hace que la piel luzca más atractiva.",
+			"Nutre suavemente y deja la piel lisa y sedosa. El suero contiene ácido hialurónico y un complejo hidratante de ingredientes vegetales que nutren e hidratan la piel.",
+			"Deja la piel fresca, humectada y sin sensación de tirantez. Disfruta de la textura fresca y fragante de la crema."
+		],
+		"how_to_use": [
+			"Limpia la piel del rostro.", 
+			"Toma una cantidad adecuada de la crema y aplícala de manera uniforme en el rostro.", 
+			"Desliza las manos desde la nariz hacia los lados del rostro, masajeando suavemente hasta su completa absorción."
+		],
+		"available": true,
+		"price": 40.00,
+		"menu": 1
+	},
+	{
+		"id": 3,
+		"image": "img/crema-facial-hidratante-y-nutritiva-V7/3-crema-facial-hidratante-y-nutritiva-V7.jpg",
+		"all_images": [
+			"img/crema-facial-hidratante-y-nutritiva-V7/1-crema-facial-hidratante-y-nutritiva-V7.jpg", 
+			"img/crema-facial-hidratante-y-nutritiva-V7/2-crema-facial-hidratante-y-nutritiva-V7.jpg", 
+			"img/crema-facial-hidratante-y-nutritiva-V7/3-crema-facial-hidratante-y-nutritiva-V7.jpg"
+		],
+		"title": "Crema facial hidratante y nutritiva V7",
+		"sort_description": "Crema hidratante y suave. Ayuda a que la piel seca y deshidratada se llene de humedad. Mejora el equilibrio agua-lípidos y hace que la piel luzca más atractiva.",
+		"long_description": [
+			"Usa este producto de forma continua durante un largo período. Puede reducir la melanina de la piel y aclarar el tono.",
+			"Ayuda a combatir y atenuar las arrugas; ofrece una alta hidratación con colágeno puro al 100%.Favorece la elasticidad de la piel y ayuda a reafirmarla, pudiendo hacer que luzcas más joven que tu edad real.",
+			"Hidrata y nutre, repara y reafirma la piel, controla la grasa y reduce los poros, ayuda a eliminar arrugas y acné, limpia profundamente la piel y la deja más blanca y hermosa."
+		],
+		"how_to_use": [
+			"Después de limpiar el rostro.",
+			"Aplica la crema de manera uniforme en el rostro.",
+			"Masajea suavemente hasta su completa absorción."
+		],
+		"available": false,
+		"price": 42.00,
+		"menu": 1
+	}
+	
+]

@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Archivos de sistema
+.DS_Store
+*.log
+
+# Carpetas de librerías externas
+vendor/
+lib/
+
+# Archivos minificados
+*.min.js
+*.min.css
