@@ -36,13 +36,15 @@
 		"id": 1,
 		"image": "img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg",
 		"all_images": [
-			"img/suero-acido-hialuronico-arroz-15ml/1-suero-acido-hialuronico-arroz-15ml.jpg", 
-			"img/suero-acido-hialuronico-arroz-15ml/2-suero-acido-hialuronico-arroz-15ml.jpg", 
-			"img/suero-acido-hialuronico-arroz-15ml/3-suero-acido-hialuronico-arroz-15ml.jpg","img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg"
+			"img/suero-acido-hialuronico-arroz-15ml/1-suero-acido-hialuronico-arroz-15ml.jpg",
+			"img/suero-acido-hialuronico-arroz-15ml/2-suero-acido-hialuronico-arroz-15ml.jpg",
+			"img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg"
 		],
 		"title": "Suero de ácido hialurónico de arroz",
 		"sort_description": "Suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica.",
-		"long_description": ["suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica."],
+		"long_description": [
+			"suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica."
+		],
 		"how_to_use": [
 			"Limpia tu rostro.",
 			"Aplica 2–3 gotas de la cantidad adecuada del líquido en la frente.",
@@ -50,15 +52,15 @@
 			"Masajea suavemente en el rostro."
 		],
 		"available": true,
-		"price": 30.00,
+		"price": 30.0,
 		"menu": 2
 	},
 	{
 		"id": 2,
 		"image": "img/crema-hidratante-reparadora-con-acido-hialurónico/1-crema-hidratante-reparadora-con-acido-hialurónico.jpg",
 		"all_images": [
-			"img/crema-hidratante-reparadora-con-acido-hialurónico/1-crema-hidratante-reparadora-con-acido-hialurónico.jpg", 
-			"img/crema-hidratante-reparadora-con-acido-hialurónico/2-crema-hidratante-reparadora-con-acido-hialurónico.jpg", 
+			"img/crema-hidratante-reparadora-con-acido-hialurónico/1-crema-hidratante-reparadora-con-acido-hialurónico.jpg",
+			"img/crema-hidratante-reparadora-con-acido-hialurónico/2-crema-hidratante-reparadora-con-acido-hialurónico.jpg",
 			"img/crema-hidratante-reparadora-con-acido-hialurónico/3-crema-hidratante-reparadora-con-acido-hialurónico.jpg"
 		],
 		"title": "Crema hidratante reparadora con ácido hialurónico",
@@ -69,20 +71,20 @@
 			"Deja la piel fresca, humectada y sin sensación de tirantez. Disfruta de la textura fresca y fragante de la crema."
 		],
 		"how_to_use": [
-			"Limpia la piel del rostro.", 
-			"Toma una cantidad adecuada de la crema y aplícala de manera uniforme en el rostro.", 
+			"Limpia la piel del rostro.",
+			"Toma una cantidad adecuada de la crema y aplícala de manera uniforme en el rostro.",
 			"Desliza las manos desde la nariz hacia los lados del rostro, masajeando suavemente hasta su completa absorción."
 		],
 		"available": true,
-		"price": 40.00,
+		"price": 40.0,
 		"menu": 1
 	},
 	{
 		"id": 3,
 		"image": "img/crema-facial-hidratante-y-nutritiva-V7/3-crema-facial-hidratante-y-nutritiva-V7.jpg",
 		"all_images": [
-			"img/crema-facial-hidratante-y-nutritiva-V7/1-crema-facial-hidratante-y-nutritiva-V7.jpg", 
-			"img/crema-facial-hidratante-y-nutritiva-V7/2-crema-facial-hidratante-y-nutritiva-V7.jpg", 
+			"img/crema-facial-hidratante-y-nutritiva-V7/1-crema-facial-hidratante-y-nutritiva-V7.jpg",
+			"img/crema-facial-hidratante-y-nutritiva-V7/2-crema-facial-hidratante-y-nutritiva-V7.jpg",
 			"img/crema-facial-hidratante-y-nutritiva-V7/3-crema-facial-hidratante-y-nutritiva-V7.jpg"
 		],
 		"title": "Crema facial hidratante y nutritiva V7",
@@ -92,14 +94,9 @@
 			"Ayuda a combatir y atenuar las arrugas; ofrece una alta hidratación con colágeno puro al 100%.Favorece la elasticidad de la piel y ayuda a reafirmarla, pudiendo hacer que luzcas más joven que tu edad real.",
 			"Hidrata y nutre, repara y reafirma la piel, controla la grasa y reduce los poros, ayuda a eliminar arrugas y acné, limpia profundamente la piel y la deja más blanca y hermosa."
 		],
-		"how_to_use": [
-			"Después de limpiar el rostro.",
-			"Aplica la crema de manera uniforme en el rostro.",
-			"Masajea suavemente hasta su completa absorción."
-		],
+		"how_to_use": ["Después de limpiar el rostro.", "Aplica la crema de manera uniforme en el rostro.", "Masajea suavemente hasta su completa absorción."],
 		"available": false,
-		"price": 42.00,
+		"price": 42.0,
 		"menu": 1
 	}
-	
 ]

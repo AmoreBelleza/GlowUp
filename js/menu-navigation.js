@@ -8,8 +8,7 @@ const scrollLeft = document.getElementById('scrollLeft');
 const scrollRight = document.getElementById('scrollRight');
 
 const menuItems = menuContainer.querySelectorAll('.nav-item');
-const itemWidth = 100; // Ancho de cada item
-const visibleItems = 2; // Cantidad de items visibles
+const itemWidth = 100; // Ancho aproximado de cada item
 let currentIndex = 0;
 
 // Variables para el arrastre mejorado
@@ -21,16 +20,28 @@ let velocity = 0;
 let lastMoveTime = Date.now();
 let lastMovePos = 0;
 
+// Función para obtener el máximo desplazamiento permitido
+function getMaxScroll() {
+	const containerWidth = menuContainer.parentElement.offsetWidth;
+	const totalWidth = menuContainer.scrollWidth;
+	return Math.max(0, totalWidth - containerWidth);
+}
+
 function updateMenuPosition(animate = true) {
 	const offset = -currentIndex * itemWidth;
+	const maxScroll = getMaxScroll();
+
+	// Limitar el desplazamiento para que no se pase del final
+	const limitedOffset = Math.max(-maxScroll, Math.min(0, offset));
+
 	if (animate) {
 		menuContainer.style.transition = 'transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
 	} else {
 		menuContainer.style.transition = 'none';
 	}
-	menuContainer.style.transform = `translateX(${offset}px)`;
-	prevTranslate = offset;
-	currentTranslate = offset;
+	menuContainer.style.transform = `translateX(${limitedOffset}px)`;
+	prevTranslate = limitedOffset;
+	currentTranslate = limitedOffset;
 }
 
 function touchStart(event) {
@@ -62,7 +73,8 @@ function touchMove(event) {
 
 		// Aplicar resistencia en los bordes
 		const maxTranslate = 0;
-		const minTranslate = -(menuItems.length - visibleItems) * itemWidth;
+		const maxScroll = getMaxScroll();
+		const minTranslate = -maxScroll;
 
 		if (currentTranslate > maxTranslate) {
 			currentTranslate = maxTranslate + (currentTranslate - maxTranslate) * 0.3;
@@ -89,7 +101,11 @@ function touchEnd() {
 	// Calcular nuevo índice basado en el movimiento total
 	const indexChange = Math.round(totalMove / itemWidth);
 
-	currentIndex = Math.max(0, Math.min(menuItems.length - visibleItems, currentIndex - indexChange));
+	// Calcular el máximo índice permitido
+	const maxScroll = getMaxScroll();
+	const maxIndex = Math.ceil(maxScroll / itemWidth);
+
+	currentIndex = Math.max(0, Math.min(maxIndex, currentIndex - indexChange));
 
 	menuContainer.style.transition = 'transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)';
 	updateMenuPosition(true);
@@ -122,7 +138,9 @@ menuContainer.style.cursor = 'grab';
 
 // Botones de navegación mejorados
 scrollRight.addEventListener('click', function () {
-	currentIndex = Math.min(currentIndex + 1, menuItems.length - visibleItems);
+	const maxScroll = getMaxScroll();
+	const maxIndex = Math.ceil(maxScroll / itemWidth);
+	currentIndex = Math.min(currentIndex + 1, maxIndex);
 	updateMenuPosition(true);
 });
 
