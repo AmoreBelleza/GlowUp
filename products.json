@@ -37,7 +37,7 @@
 			"img/suero-acido-hialuronico-arroz-15ml/2-suero-acido-hialuronico-arroz-15ml.jpg",
 			"img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg"
 		],
-		"title": "Suero de ácido hialurónico de arroz",
+		"title": "Esencia Facial de Ácido Hialurónico de Arroz 15ml",
 		"sort_description": "Suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica.",
 
 		"how_to_use": [
@@ -119,6 +119,66 @@
 			"Aplicar una pequeña cantidad sobre la piel seca.",
 			"Distribuir uniformemente en rostro y cuello.",
 			"Masajear suavemente hasta su completa absorción.",
+			"Usar mañana y noche para mejores resultados."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 1
+	},
+	{
+		"id": 6,
+		"image": "img/suero-acido-hialuronico-arroz-100ml/1-suero-acido-hialuronico-arroz-100ml.jpg",
+		"all_images": [
+			"img/suero-acido-hialuronico-arroz-100ml/1-suero-acido-hialuronico-arroz-100ml.jpg",
+			"img/suero-acido-hialuronico-arroz-100ml/2-suero-acido-hialuronico-arroz-100ml.jpg",
+			"img/suero-acido-hialuronico-arroz-100ml/3-suero-acido-hialuronico-arroz-100ml.jpg"
+		],
+		"title": "Esencia Facial de Ácido Hialurónico de Arroz 15ml",
+		"sort_description": "Suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica.",
+
+		"how_to_use": [
+			"Limpia tu rostro.",
+			"Aplica 2–3 gotas de la cantidad adecuada del líquido en la frente.",
+			"Masajea suavemente hasta que se absorba.",
+			"Masajea suavemente en el rostro."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 2
+	},
+	{
+		"id": 7,
+		"image": "img/protector-solar-arroz-bioaqua-factor50/1-protector-solar-arroz-bioaqua-factor50.jpg",
+		"all_images": [
+			"img/protector-solar-arroz-bioaqua-factor50/1-protector-solar-arroz-bioaqua-factor50.jpg",
+			"img/protector-solar-arroz-bioaqua-factor50/2-protector-solar-arroz-bioaqua-factor50.jpg",
+			"img/protector-solar-arroz-bioaqua-factor50/3-protector-solar-arroz-bioaqua-factor50.jpg"
+		],
+		"title": "Protector Solar de Arroz Bioaqua SPF 50",
+		"sort_description": "Protector solar facial y corporal con extracto de arroz y SPF 50 que protege contra los daños de los rayos UVA y UVB. Hidrata la piel, previene manchas y mantiene el rostro y cuerpo con apariencia saludable y radiante. Ideal para uso diario y todo tipo de piel.",
+
+		"how_to_use": [
+			"Aplicar generosa cantidad sobre la piel limpia y seca.",
+			"Extender uniformemente en rostro, cuello y zonas expuestas al sol.",
+			"Reaplicar cada 2-3 horas o después de sudar o nadar.",
+			"Usar diariamente antes de la exposición al sol."
+		],
+		"available": true,
+		"price": 25.0,
+		"menu": 3
+	},
+	{
+		"id": 8,
+		"image": "img/limpiador-facial-pulpa-arroz/1-limpiador-facial-pulpa-arroz.jpg",
+		"all_images": ["img/limpiador-facial-pulpa-arroz/1-limpiador-facial-pulpa-arroz.jpg", "img/limpiador-facial-pulpa-arroz/2-limpiador-facial-pulpa-arroz.jpg"],
+		"title": "Limpiador Facial de Pulpa de Arroz 100g",
+		"sort_description": "Limpiador suave con extracto de arroz que elimina impurezas, exceso de grasa y residuos de maquillaje. Deja la piel fresca, limpia y nutrida, ayudando a mantener un tono uniforme y saludable. Ideal para uso diario en todo tipo de piel.",
+
+		"how_to_use": [
+			"Humedecer el rostro con agua tibia.",
+			"Aplicar una pequeña cantidad de limpiador sobre la piel húmeda.",
+			"Masajear suavemente con movimientos circulares.",
+			"Enjuagar completamente con agua.",
 			"Usar mañana y noche para mejores resultados."
 		],
 		"available": true,

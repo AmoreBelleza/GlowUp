@@ -39,6 +39,30 @@ function getBackgroundColor(menuId) {
 	return colors[menuId] || '#ffe5ec';
 }
 
+// Función para obtener el color de borde según el menú
+function getBorderColor(menuId) {
+	const colors = {
+		1: '#ffb3c6', // Rosa más fuerte
+		2: '#a8d5e8', // Azul más fuerte
+		3: '#f5e86c', // Amarillo más fuerte
+		4: '#d4a8e8', // Lila más fuerte
+		5: '#ffc299', // Naranja más fuerte
+	};
+	return colors[menuId] || '#ffb3c6';
+}
+
+// Función para obtener el color del ícono según el menú
+function getIconColor(menuId) {
+	const colors = {
+		1: '#e91e63', // Rosa intenso
+		2: '#0288d1', // Azul intenso
+		3: '#fbc02d', // Amarillo intenso
+		4: '#9c27b0', // Lila intenso
+		5: '#ff5722', // Naranja intenso
+	};
+	return colors[menuId] || '#e91e63';
+}
+
 // Función para truncar descripción
 function truncateDescription(text, maxWords = 15) {
 	const words = text.trim().split(/\s+/);
@@ -200,10 +224,10 @@ function showProductDetail(productId) {
 					</h3>
 					
 					<div class="mb-4" style="background: ${getBackgroundColor(product.menu)}; padding: 20px; border-radius: 8px">
-						<h5 style="font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 600; color: #333; margin-bottom: 12px">
+						<h5 style="font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 600; color: #2d3748; margin-bottom: 12px; font-size: 18px">
 							Descripción
 						</h5>
-						<p style="font-family: 'Montserrat', 'Arial', sans-serif; color: #666; line-height: 1.8; margin: 0">
+						<p style="font-family: 'Montserrat', 'Arial', sans-serif; color: #4a5568; line-height: 2; margin: 0; font-size: 15px">
 							${product.sort_description}
 						</p>
 					</div>
@@ -211,12 +235,12 @@ function showProductDetail(productId) {
 					${
 						product.benefits && product.benefits.length > 0
 							? `
-						<div class="mb-4">
-							<h5 style="font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 600; color: #333; margin-bottom: 12px">
-								<i class="fas fa-check-circle me-2" style="color: #a8d5ba"></i>Beneficios
+						<div class="mb-4" style="background: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid ${getBorderColor(product.menu)}">
+							<h5 style="font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 600; color: #2d3748; margin-bottom: 16px; font-size: 18px">
+								<i class="fas fa-check-circle me-2" style="color: ${getIconColor(product.menu)}"></i>Beneficios
 							</h5>
-							<ul style="font-family: 'Montserrat', 'Arial', sans-serif; color: #666; line-height: 1.8; padding-left: 20px">
-								${product.benefits.map(benefit => `<li class="mb-2">${benefit}</li>`).join('')}
+							<ul style="font-family: 'Montserrat', 'Arial', sans-serif; color: #4a5568; line-height: 2; padding-left: 24px; margin: 0; font-size: 15px">
+								${product.benefits.map(benefit => `<li class="mb-3" style="padding-left: 8px">${benefit}</li>`).join('')}
 							</ul>
 						</div>
 					`
@@ -226,12 +250,12 @@ function showProductDetail(productId) {
 					${
 						product.how_to_use && product.how_to_use.length > 0
 							? `
-						<div class="mb-4">
-							<h5 style="font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 600; color: #333; margin-bottom: 12px">
-								<i class="fas fa-hand-sparkles me-2" style="color: #d4ebf2"></i>Cómo usar
+						<div class="mb-4" style="background: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid ${getBorderColor(product.menu)}">
+							<h5 style="font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 600; color: #2d3748; margin-bottom: 16px; font-size: 18px">
+								<i class="fas fa-hand-sparkles me-2" style="color: ${getIconColor(product.menu)}"></i>Cómo usar
 							</h5>
-							<ol style="font-family: 'Montserrat', 'Arial', sans-serif; color: #666; line-height: 1.8; padding-left: 20px">
-								${product.how_to_use.map(step => `<li class="mb-2">${step}</li>`).join('')}
+							<ol style="font-family: 'Montserrat', 'Arial', sans-serif; color: #4a5568; line-height: 2; padding-left: 24px; margin: 0; font-size: 15px">
+								${product.how_to_use.map(step => `<li class="mb-3" style="padding-left: 8px">${step}</li>`).join('')}
 							</ol>
 						</div>
 					`
