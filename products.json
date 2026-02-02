@@ -5,7 +5,6 @@
 		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
 		"title": "Contorno de Ojos",
 		"sort_description": "Reduce ojeras y líneas de expresión. Fórmula suave",
-		"long_description": "Reduce ojeras y líneas de expresión. Fórmula suave",
 		"available": true,
 		"price": 29.99,
 		"menu": 3
@@ -16,7 +15,6 @@
 		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
 		"title": "Exfoliante Suave",
 		"sort_description": "Renueva tu piel con delicadeza. Micropartículas naturales",
-		"long_description": "Renueva tu piel con delicadeza. Micropartículas naturales",
 		"available": false,
 		"price": 29.99,
 		"menu": 4
@@ -27,7 +25,6 @@
 		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
 		"title": "Exfoliante Suave 1",
 		"sort_description": "Sellador y convertidor e impermeable. Fórmula Líquida",
-		"long_description": "Sellador y convertidor de maquillaje líquido Fórmula Líquida",
 		"available": true,
 		"price": 29.99,
 		"menu": 5
@@ -42,9 +39,7 @@
 		],
 		"title": "Suero de ácido hialurónico de arroz",
 		"sort_description": "Suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica.",
-		"long_description": [
-			"suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica."
-		],
+
 		"how_to_use": [
 			"Limpia tu rostro.",
 			"Aplica 2–3 gotas de la cantidad adecuada del líquido en la frente.",
@@ -65,11 +60,6 @@
 		],
 		"title": "Crema hidratante reparadora con ácido hialurónico",
 		"sort_description": "Crema hidratante y suave. Ayuda a que la piel seca y deshidratada se llene de humedad. Mejora el equilibrio agua-lípidos y hace que la piel luzca más atractiva.",
-		"long_description": [
-			"Hidratante y suave. Ayuda a que la piel seca y deshidratada se llene de humedad. Mejora el equilibrio agua-lípidos y hace que la piel luzca más atractiva.",
-			"Nutre suavemente y deja la piel lisa y sedosa. El suero contiene ácido hialurónico y un complejo hidratante de ingredientes vegetales que nutren e hidratan la piel.",
-			"Deja la piel fresca, humectada y sin sensación de tirantez. Disfruta de la textura fresca y fragante de la crema."
-		],
 		"how_to_use": [
 			"Limpia la piel del rostro.",
 			"Toma una cantidad adecuada de la crema y aplícala de manera uniforme en el rostro.",
@@ -89,14 +79,50 @@
 		],
 		"title": "Crema facial hidratante y nutritiva V7",
 		"sort_description": "Crema hidratante y suave. Ayuda a que la piel seca y deshidratada se llene de humedad. Mejora el equilibrio agua-lípidos y hace que la piel luzca más atractiva.",
-		"long_description": [
-			"Usa este producto de forma continua durante un largo período. Puede reducir la melanina de la piel y aclarar el tono.",
-			"Ayuda a combatir y atenuar las arrugas; ofrece una alta hidratación con colágeno puro al 100%.Favorece la elasticidad de la piel y ayuda a reafirmarla, pudiendo hacer que luzcas más joven que tu edad real.",
-			"Hidrata y nutre, repara y reafirma la piel, controla la grasa y reduce los poros, ayuda a eliminar arrugas y acné, limpia profundamente la piel y la deja más blanca y hermosa."
-		],
 		"how_to_use": ["Después de limpiar el rostro.", "Aplica la crema de manera uniforme en el rostro.", "Masajea suavemente hasta su completa absorción."],
 		"available": false,
 		"price": 42.0,
+		"menu": 1
+	},
+	{
+		"id": 4,
+		"image": "img/crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml/1-crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml.jpg",
+		"all_images": [
+			"img/crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml/1-crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml.jpg",
+			"img/crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml/2-crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml.jpg",
+			"img/crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml/3-crema-corporal-ceramida-acido-hialuronico-bioaqua-400ml.jpg"
+		],
+		"title": "Crema Corporal Ceramida + Ácido Hialurónico Bioaqua 400 ml",
+		"sort_description": "Crema corporal formulada con ceramidas y ácido hialurónico que ayuda a hidratar profundamente, fortalecer la barrera cutánea y prevenir la resequedad. Su textura ligera se absorbe fácilmente sin dejar sensación grasosa, dejando la piel suave, nutrida y con una apariencia saludable. Ideal para uso diario en todo tipo de piel.",
+		"how_to_use": [
+			"Limpiar y secar la piel antes de la aplicación.",
+			"Aplicar una cantidad adecuada en el cuerpo.",
+			"Masajear suavemente con movimientos circulares hasta su completa absorción.",
+			"Usar diariamente, preferentemente después del baño."
+		],
+		"available": true,
+		"price": 40.0,
+		"menu": 1
+	},
+	{
+		"id": 5,
+		"image": "img/crema-facial-pulpa-arroz/1-crema-facial-pulpa-arroz.jpg",
+		"all_images": [
+			"img/crema-facial-pulpa-arroz/1-crema-facial-pulpa-arroz.jpg",
+			"img/crema-facial-pulpa-arroz/2-crema-facial-pulpa-arroz.jpg",
+			"img/crema-facial-pulpa-arroz/3-crema-facial-pulpa-arroz.jpg"
+		],
+		"title": "Crema Facial de Pulpa de Arroz",
+		"sort_description": "Crema facial formulada con pulpa de arroz que ayuda a iluminar la piel, unificar el tono y disminuir la apariencia de manchas. Aporta hidratación y nutrición, dejando el rostro más suave, fresco y con una apariencia saludable. Ideal para el cuidado diario de la piel.",
+		"how_to_use": [
+			"Limpiar el rostro antes de la aplicación.",
+			"Aplicar una pequeña cantidad sobre la piel seca.",
+			"Distribuir uniformemente en rostro y cuello.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Usar mañana y noche para mejores resultados."
+		],
+		"available": true,
+		"price": 32.0,
 		"menu": 1
 	}
 ]
