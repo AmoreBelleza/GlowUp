@@ -184,5 +184,25 @@
 		"available": true,
 		"price": 32.0,
 		"menu": 1
+	},
+	{
+		"id": 9,
+		"image": "img/crema-para-manos-extracto-arroz/1-crema-para-manos-extracto-arroz.jpg",
+		"all_images": [
+			"img/crema-para-manos-extracto-arroz/1-crema-para-manos-extracto-arroz.jpg",
+			"img/crema-para-manos-extracto-arroz/2-crema-para-manos-extracto-arroz.jpg",
+			"img/crema-para-manos-extracto-arroz/3-crema-para-manos-extracto-arroz.jpg"
+		],
+		"title": "Crema para Manos con Extracto de Arroz",
+		"sort_description": "Crema para manos con extracto de arroz que hidrata profundamente, ayuda a aclarar el tono de la piel y mejora su suavidad. Su fórmula nutritiva protege contra la resequedad, dejando las manos más tersas, uniformes y con una apariencia cuidada. Ideal para uso diario.",
+
+		"how_to_use": [
+			"Aplicar una pequeña cantidad sobre las manos limpias y secas.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Reaplicar las veces que sea necesario, especialmente después de lavar las manos."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 1
 	}
 ]
