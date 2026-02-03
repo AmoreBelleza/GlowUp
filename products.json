@@ -253,19 +253,17 @@
 			"img/limpiador-facial-espuma-hidratante-exfoliante120ml/2-limpiador-facial-espuma-hidratante-exfoliante120ml.jpg",
 			"img/limpiador-facial-espuma-hidratante-exfoliante120ml/3-limpiador-facial-espuma-hidratante-exfoliante120ml.jpg"
 		],
-		"title": "Crema Corporal Hidratante con Extracto de Arroz 250ml",
-		"sort_description": "Loción corporal enriquecida con extracto de arroz que proporciona hidratación profunda y duradera. Nutre la piel seca y sensible mientras restaura su suavidad natural y elasticidad. Su fórmula ligera se absorbe rápidamente sin dejar sensación pegajosa. Ideal para mantener la piel hidratada, tersa y luminosa durante todo el día.",
+		"title": "Limpiador Facial en Espuma Hidratante y Exfoliante 120ml",
+		"sort_description": "Espuma limpiadora facial de Bioaqua que limpia profundamente sin resecar, ayudando a eliminar impurezas, exceso de grasa y células muertas. Su fórmula hidratante deja la piel suave, fresca y revitalizada, mejorando la textura del rostro. Ideal para el uso diario y todo tipo de piel.",
 
 		"how_to_use": [
-			"Asegúrate de que tu cuerpo esté limpio y ligeramente húmedo.",
-			"Vierte una cantidad generosa de crema en la palma de tu mano.",
-			"Aplica sobre brazos, piernas, torso y cuello con movimientos circulares.",
-			"Masajea suavemente hasta que la crema se absorba completamente.",
-			"Presta especial atención a zonas secas como codos y talones.",
-			"Permite que se absorba durante 5 minutos antes de vestirte",
-			"Usa diariamente después de la ducha para mejores resultados"
+			"Humedecer el rostro con agua.",
+			"Aplicar una pequeña cantidad de espuma en la mano.",
+			"Masajear suavemente el rostro con movimientos circulares.",
+			"Enjuagar con abundante agua.",
+			"Usar mañana y noche."
 		],
-		"available": true,
+		"available": false,
 		"price": 35.0,
 		"menu": 5
 	}
