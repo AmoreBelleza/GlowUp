@@ -1,35 +1,5 @@
 [
 	{
-		"id": 114,
-		"image": "img/services-3.jpeg",
-		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
-		"title": "Contorno de Ojos",
-		"sort_description": "Reduce ojeras y líneas de expresión. Fórmula suave",
-		"available": true,
-		"price": 29.99,
-		"menu": 3
-	},
-	{
-		"id": 115,
-		"image": "img/services-4.jpeg",
-		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
-		"title": "Exfoliante Suave",
-		"sort_description": "Renueva tu piel con delicadeza. Micropartículas naturales",
-		"available": false,
-		"price": 29.99,
-		"menu": 4
-	},
-	{
-		"id": 116,
-		"image": "img/services-4.jpeg",
-		"all_images": ["img/services-1.jpeg", "img/services-2.jpeg", "img/services-3.jpeg"],
-		"title": "Exfoliante Suave 1",
-		"sort_description": "Sellador y convertidor e impermeable. Fórmula Líquida",
-		"available": true,
-		"price": 29.99,
-		"menu": 5
-	},
-	{
 		"id": 1,
 		"image": "img/suero-acido-hialuronico-arroz-15ml/4-suero-acido-hialuronico-arroz-15ml.jpg",
 		"all_images": [
@@ -47,7 +17,7 @@
 			"Masajea suavemente en el rostro."
 		],
 		"available": true,
-		"price": 30.0,
+		"price": 38.0,
 		"menu": 2
 	},
 	{
@@ -183,7 +153,7 @@
 		],
 		"available": true,
 		"price": 32.0,
-		"menu": 1
+		"menu": 5
 	},
 	{
 		"id": 9,
@@ -193,7 +163,7 @@
 			"img/crema-para-manos-extracto-arroz/2-crema-para-manos-extracto-arroz.jpg",
 			"img/crema-para-manos-extracto-arroz/3-crema-para-manos-extracto-arroz.jpg"
 		],
-		"title": "Crema para Manos con Extracto de Arroz",
+		"title": "Crema para Manos con Extracto de Arroz 30g",
 		"sort_description": "Crema para manos con extracto de arroz que hidrata profundamente, ayuda a aclarar el tono de la piel y mejora su suavidad. Su fórmula nutritiva protege contra la resequedad, dejando las manos más tersas, uniformes y con una apariencia cuidada. Ideal para uso diario.",
 
 		"how_to_use": [
@@ -202,7 +172,101 @@
 			"Reaplicar las veces que sea necesario, especialmente después de lavar las manos."
 		],
 		"available": true,
-		"price": 32.0,
+		"price": 10.0,
 		"menu": 1
+	},
+	{
+		"id": 10,
+		"image": "img/jabon-blanqueador-base-arroz/1-jabon-blanqueador-base-arroz.jpg",
+		"all_images": [
+			"img/jabon-blanqueador-base-arroz/1-jabon-blanqueador-base-arroz.jpg",
+			"img/jabon-blanqueador-base-arroz/2-jabon-blanqueador-base-arroz.jpg",
+			"img/jabon-blanqueador-base-arroz/3-jabon-blanqueador-base-arroz.jpg"
+		],
+		"title": "Jabón Blanqueador a Base de Arroz 100g",
+		"sort_description": "Jabón especializado formulado con extracto de arroz, un ingrediente natural reconocido por sus propiedades blanqueadoras y aclarantes. Ideal para unificar el tono de la piel, reducir manchas oscuras y mejorar la luminosidad natural. Su textura suave y fórmula dermatológica lo hacen apto para todo tipo de piel, proporcionando limpieza profunda mientras hidrata y revitaliza.",
+
+		"how_to_use": [
+			"Humedece tu rostro con agua tibia.",
+			"Frota el jabón entre tus manos para crear espuma.",
+			"Aplica la espuma suavemente en el rostro con movimientos circularess.",
+			"Enjuaga abundantemente con agua limpia.",
+			"Seca tu piel con una toalla suave.",
+			"Aplica tu crema hidratante habitual"
+		],
+		"available": true,
+		"price": 25.0,
+		"menu": 5
+	},
+	{
+		"id": 11,
+		"image": "img/contorno-ojos-base-suero-arroz/1-contorno-ojos-base-suero-arroz.jpg",
+		"all_images": [
+			"img/contorno-ojos-base-suero-arroz/1-contorno-ojos-base-suero-arroz.jpg",
+			"img/contorno-ojos-base-suero-arroz/2-contorno-ojos-base-suero-arroz.jpg",
+			"img/contorno-ojos-base-suero-arroz/3-contorno-ojos-base-suero-arroz.jpg"
+		],
+		"title": "Contorno De Ojos a Base Suero De Arroz 20g",
+		"sort_description": "Contorno de ojos especializado enriquecido con suero de arroz, formulado para tratar el delicado área periocular. Reduce ojeras, hinchazón y líneas de expresión mientras ilumina la mirada. Su textura ligera y de rápida absorción proporciona hidratación intensiva sin dejar residuos grasos. Ideal para revitalizar la zona más sensible del rostro y restaurar su luminosidad natural.",
+
+		"how_to_use": [
+			"Asegúrate de tener el rostro limpio y seco.",
+			"Toma una pequeña cantidad (tamaño de una lenteja) del producto.",
+			"Aplica delicadamente alrededor del ojo derecho con el dedo anular.",
+			"Repite el proceso en el ojo izquierdo.",
+			"Permite que se absorba durante 2-3 minutos antes de aplicar maquillaje.",
+			"Usa preferentemente por la mañana y por la noche"
+		],
+		"available": true,
+		"price": 20.0,
+		"menu": 4
+	},
+	{
+		"id": 12,
+		"image": "img/crema-corporal-hidratante-extracto-arroz250ml/1-crema-corporal-hidratante-extracto-arroz250ml.jpg",
+		"all_images": [
+			"img/crema-corporal-hidratante-extracto-arroz250ml/1-crema-corporal-hidratante-extracto-arroz250ml.jpg",
+			"img/crema-corporal-hidratante-extracto-arroz250ml/2-crema-corporal-hidratante-extracto-arroz250ml.jpg",
+			"img/crema-corporal-hidratante-extracto-arroz250ml/3-crema-corporal-hidratante-extracto-arroz250ml.jpg"
+		],
+		"title": "Crema Corporal Hidratante con Extracto de Arroz 250ml",
+		"sort_description": "Loción corporal enriquecida con extracto de arroz que proporciona hidratación profunda y duradera. Nutre la piel seca y sensible mientras restaura su suavidad natural y elasticidad. Su fórmula ligera se absorbe rápidamente sin dejar sensación pegajosa. Ideal para mantener la piel hidratada, tersa y luminosa durante todo el día.",
+
+		"how_to_use": [
+			"Asegúrate de que tu cuerpo esté limpio y ligeramente húmedo.",
+			"Vierte una cantidad generosa de crema en la palma de tu mano.",
+			"Aplica sobre brazos, piernas, torso y cuello con movimientos circulares.",
+			"Masajea suavemente hasta que la crema se absorba completamente.",
+			"Presta especial atención a zonas secas como codos y talones.",
+			"Permite que se absorba durante 5 minutos antes de vestirte",
+			"Usa diariamente después de la ducha para mejores resultados"
+		],
+		"available": true,
+		"price": 35.0,
+		"menu": 1
+	},
+	{
+		"id": 13,
+		"image": "img/limpiador-facial-espuma-hidratante-exfoliante120ml/1-limpiador-facial-espuma-hidratante-exfoliante120ml.jpg",
+		"all_images": [
+			"img/limpiador-facial-espuma-hidratante-exfoliante120ml/1-limpiador-facial-espuma-hidratante-exfoliante120ml.jpg",
+			"img/limpiador-facial-espuma-hidratante-exfoliante120ml/2-limpiador-facial-espuma-hidratante-exfoliante120ml.jpg",
+			"img/limpiador-facial-espuma-hidratante-exfoliante120ml/3-limpiador-facial-espuma-hidratante-exfoliante120ml.jpg"
+		],
+		"title": "Crema Corporal Hidratante con Extracto de Arroz 250ml",
+		"sort_description": "Loción corporal enriquecida con extracto de arroz que proporciona hidratación profunda y duradera. Nutre la piel seca y sensible mientras restaura su suavidad natural y elasticidad. Su fórmula ligera se absorbe rápidamente sin dejar sensación pegajosa. Ideal para mantener la piel hidratada, tersa y luminosa durante todo el día.",
+
+		"how_to_use": [
+			"Asegúrate de que tu cuerpo esté limpio y ligeramente húmedo.",
+			"Vierte una cantidad generosa de crema en la palma de tu mano.",
+			"Aplica sobre brazos, piernas, torso y cuello con movimientos circulares.",
+			"Masajea suavemente hasta que la crema se absorba completamente.",
+			"Presta especial atención a zonas secas como codos y talones.",
+			"Permite que se absorba durante 5 minutos antes de vestirte",
+			"Usa diariamente después de la ducha para mejores resultados"
+		],
+		"available": true,
+		"price": 35.0,
+		"menu": 5
 	}
 ]
