@@ -266,5 +266,91 @@
 		"available": false,
 		"price": 35.0,
 		"menu": 5
+	},
+	{
+		"id": 14,
+		"image": "img/limpiador-facial-centella-asiatica/1-limpiador-facial-centella-asiatica.jpg",
+		"all_images": [
+			"img/limpiador-facial-centella-asiatica/1-limpiador-facial-centella-asiatica.jpg",
+			"img/limpiador-facial-centella-asiatica/2-limpiador-facial-centella-asiatica.jpg"
+		],
+		"title": "Limpiador Facial de Centella Asiática",
+		"sort_description": "Limpiador facial con centella asiática formulado especialmente para piel grasa. Ayuda a eliminar impurezas, controlar el exceso de grasa y calmar la piel, dejándola limpia, fresca y equilibrada. Su uso continuo contribuye a una apariencia más uniforme y saludable sin resecar.",
+
+		"how_to_use": [
+			"Humedecer el rostro con agua.",
+			"Aplicar una pequeña cantidad del limpiador sobre la piel húmeda.",
+			"Masajear suavemente con movimientos circulares.",
+			"Enjuagar con abundante agua.",
+			"Usar por la mañana y por la noche."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 5
+	},
+	{
+		"id": 15,
+		"image": "img/crema-facial-centella-asiatica/1-crema-facial-centella-asiatica.jpg",
+		"all_images": [
+			"img/limpiador-facial-centella-asiatica/1-crema-facial-centella-asiatica.jpg",
+			"img/limpiador-facial-centella-asiatica/2-crema-facial-centella-asiatica.jpg",
+			"img/limpiador-facial-centella-asiatica/3-crema-facial-centella-asiatica.jpg"
+		],
+		"title": "Crema Facial de Centella Asiática",
+		"sort_description": "Crema facial hidratante con centella asiática que ayuda a calmar la piel, aportar hidratación profunda y mejorar su suavidad. Ideal para el uso diario, contribuye a mantener el rostro fresco, equilibrado y con una apariencia saludable. Apta para todo tipo de piel.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de la aplicación.",
+			"Aplicar una cantidad adecuada en rostro y cuello.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Usar mañana y noche."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 16,
+		"image": "img/tonico-reparador-calmante-piel-seca-centella-asiatica/1-tonico-reparador-calmante-piel-seca-centella-asiatica.jpg",
+		"all_images": [
+			"img/tonico-reparador-calmante-piel-seca-centella-asiatica/1-tonico-reparador-calmante-piel-seca-centella-asiatica.jpg",
+			"img/tonico-reparador-calmante-piel-seca-centella-asiatica/2-tonico-reparador-calmante-piel-seca-centella-asiatica.jpg",
+			"img/tonico-reparador-calmante-piel-seca-centella-asiatica/3-tonico-reparador-calmante-piel-seca-centella-asiatica.jpg"
+		],
+		"title": "Tónico Reparador Calmante para Piel seca con Centella Asiática",
+		"sort_description": "Tónico facial formulado con centella asiática que ayuda a reparar la piel seca, calmar la irritación y restaurar la hidratación. Refresca, equilibra y prepara la piel para los siguientes pasos de la rutina facial, dejando el rostro suave y con sensación de alivio.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de aplicar el tónico.",
+			"Colocar una cantidad adecuada en un algodón o en la palma de la mano.",
+			"Aplicar suavemente sobre el rostro y cuello sin frotar.",
+			"Dejar absorber completamente.",
+			"Usar mañana y noche."
+		],
+		"available": true,
+		"price": 28.0,
+		"menu": 2
+	},
+	{
+		"id": 16,
+		"image": "img/contorno-ojos-centella-asiatica/1-contorno-ojos-centella-asiatica.jpg",
+		"all_images": [
+			"img/contorno-ojos-centella-asiatica/1-contorno-ojos-centella-asiatica.jpg",
+			"img/contorno-ojos-centella-asiatica/2-contorno-ojos-centella-asiatica.jpg",
+			"img/contorno-ojos-centella-asiatica/3-contorno-ojos-centella-asiatica.jpg"
+		],
+		"title": "Contorno de Ojos de Centella Asiática",
+		"sort_description": "Tónico facial formulado con centella asiática que ayuda a reparar la piel seca, calmar la irritación y restaurar la hidratación. Refresca, equilibra y prepara la piel para los siguientes pasos de la rutina facial, dejando el rostro suave y con sensación de alivio.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de aplicar el tónico.",
+			"Colocar una cantidad adecuada en un algodón o en la palma de la mano.",
+			"Aplicar suavemente sobre el rostro y cuello sin frotar.",
+			"Dejar absorber completamente.",
+			"Usar mañana y noche."
+		],
+		"available": true,
+		"price": 28.0,
+		"menu": 2
 	}
 ]
