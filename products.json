@@ -219,7 +219,7 @@
 		],
 		"available": true,
 		"price": 20.0,
-		"menu": 4
+		"menu": 2
 	},
 	{
 		"id": 12,
@@ -352,5 +352,133 @@
 		"available": true,
 		"price": 28.0,
 		"menu": 2
+	},
+	{
+		"id": 17,
+		"image": "img/mascarilla-facial-iluminadora-hidratante-bioacua/1-mascarilla-facial-iluminadora-hidratante-bioacua.jpg",
+		"all_images": [
+			"img/mascarilla-facial-iluminadora-hidratante-bioacua/1-mascarilla-facial-iluminadora-hidratante-bioacua.jpg",
+			"img/mascarilla-facial-iluminadora-hidratante-bioacua/2-mascarilla-facial-iluminadora-hidratante-bioacua.jpg",
+			"img/mascarilla-facial-iluminadora-hidratante-bioacua/3-mascarilla-facial-iluminadora-hidratante-bioacua.jpg"
+		],
+		"title": "Mascarilla Facial Iluminadora e Hidratante Bioacua",
+		"sort_description": "Mascarilla facial diseñada para hidratar profundamente y aportar luminosidad al rostro. Ayuda a revitalizar la piel opaca, mejorar su textura y dejar una sensación fresca y suave. Ideal para devolverle al rostro una apariencia radiante y saludable en pocos minutos.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de aplicar la mascarilla.",
+			"Colocar la mascarilla sobre la piel seca y ajustarla al contorno del rostro.",
+			"Dejar actuar de 15 a 20 minutos.",
+			"Retirar y masajear el producto restante hasta su absorción.",
+			"Usar 2 a 3 veces por semana."
+		],
+		"available": true,
+		"price": 5.0,
+		"menu": 4
+	},
+	{
+		"id": 18,
+		"image": "img/parche-para-acne-pack-36-unid/1-parche-para-acne-pack-36-unid.jpg",
+		"all_images": ["img/parche-para-acne-pack-36-unid/1-parche-para-acne-pack-36-unid.jpg", "img/parche-para-acne-pack-36-unid/2-parche-para-acne-pack-36-unid.jpg"],
+		"title": "Parche para el Acné Pack 36 Unidades (Corazón y Estrella)",
+		"sort_description": "Parches para el acné en divertidas formas de corazón y estrella que ayudan a proteger, absorber impurezas y favorecer la recuperación de granitos. Aptos para todo tipo de piel, actúan como barrera contra suciedad y manipulación, ayudando a mejorar la apariencia de la piel durante el día o la noche.",
+
+		"how_to_use": [
+			"Limpiar y secar completamente la zona afectada.",
+			"Seleccionar el parche adecuado y colocarlo directamente sobre el granito.",
+			"Presionar suavemente para que se adhiera bien.",
+			"Dejar actuar varias horas o toda la noche.",
+			"Retirar y desechar. Usar uno nuevo si es necesario."
+		],
+		"available": true,
+		"price": 30,
+		"menu": 4
+	},
+	{
+		"id": 19,
+		"image": "img/limpiador-facial-bioaqua-vitaminac/1-limpiador-facial-bioaqua-vitaminac.jpg",
+		"all_images": [
+			"img/limpiador-facial-bioaqua-vitaminac/1-limpiador-facial-bioaqua-vitaminac.jpg",
+			"img/limpiador-facial-bioaqua-vitaminac/2-limpiador-facial-bioaqua-vitaminac.jpg",
+			"img/limpiador-facial-bioaqua-vitaminac/3-limpiador-facial-bioaqua-vitaminac.jpg"
+		],
+		"title": "Limpiador Facial Bioaqua con Vitamina C",
+		"sort_description": "Limpiador facial con vitamina C que ayuda a iluminar la piel, unificar el tono y reducir la apariencia de manchas. Elimina impurezas y exceso de grasa sin resecar, dejando el rostro más fresco, suave y con aspecto radiante. Ideal para uso diario en todo tipo de piel.",
+
+		"how_to_use": [
+			"Humedecer el rostro con agua.",
+			"Aplicar una pequeña cantidad del limpiador sobre la piel húmeda.",
+			"Masajear suavemente con movimientos circulares.",
+			"Enjuagar con abundante agua.",
+			"Usar mañana y noche."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 5
+	},
+	{
+		"id": 20,
+		"image": "img/contorno-ojos-vitaminac/1-contorno-ojos-vitaminac.jpg",
+		"all_images": [
+			"img/contorno-ojos-vitaminac/1-contorno-ojos-vitaminac.jpg",
+			"img/contorno-ojos-vitaminac/2-contorno-ojos-vitaminac.jpg",
+			"img/contorno-ojos-vitaminac/3-contorno-ojos-vitaminac.jpg"
+		],
+		"title": "Contorno de Ojos con Vitamina C 20g",
+		"sort_description": "Contorno de ojos con vitamina C que ayuda a iluminar la mirada, reducir la apariencia de ojeras y mejorar el tono desigual. Su fórmula hidratante aporta suavidad y frescura, dejando la zona más firme y con aspecto descansado. Ideal para el cuidado diario.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de la aplicación.",
+			"Aplicar una pequeña cantidad en el contorno de ojos.",
+			"Dar suaves toquecitos con la yema de los dedos, sin frotar.",
+			"Dejar absorber completamente.",
+			"Usar mañana y noche."
+		],
+		"available": true,
+		"price": 20.0,
+		"menu": 2
+	},
+	{
+		"id": 21,
+		"image": "img/serum-vitaminac-bioaqua/1-serum-vitaminac-bioaqua.jpg",
+		"all_images": [
+			"img/serum-vitaminac-bioaqua/1-serum-vitaminac-bioaqua.jpg",
+			"img/serum-vitaminac-bioaqua/2-serum-vitaminac-bioaqua.jpg",
+			"img/serum-vitaminac-bioaqua/3-serum-vitaminac-bioaqua.jpg"
+		],
+		"title": "Sérum de Vitamina C 30Ml Bioaqua Antimanchas",
+		"sort_description": "Sérum facial con vitamina C formulado para ayudar a reducir manchas, iluminar el rostro y unificar el tono de la piel. Su textura ligera se absorbe rápidamente, aportando hidratación y mejorando la apariencia de líneas finas. Ideal para pieles mayores de 25 años que buscan luminosidad y firmeza.",
+
+		"how_to_use": [
+			"Limpiar y tonificar el rostro previamente.",
+			"Aplicar de 3 a 5 gotas sobre la piel seca.",
+			"Distribuir suavemente en rostro y cuello.",
+			"Masajear hasta su completa absorción.",
+			"Al usar preferentemente aplicar protector solar."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 2
+	},
+	{
+		"id": 22,
+		"image": "img/crema-facial-bioaqua-vitaminac50ml/1-crema-facial-bioaqua-vitaminac50ml.jpg",
+		"all_images": [
+			"img/crema-facial-bioaqua-vitaminac50ml/1-crema-facial-bioaqua-vitaminac50ml.jpg",
+			"img/crema-facial-bioaqua-vitaminac50ml/2-crema-facial-bioaqua-vitaminac50ml.jpg",
+			"img/crema-facial-bioaqua-vitaminac50ml/3-crema-facial-bioaqua-vitaminac50ml.jpg"
+		],
+		"title": "Crema Facial Bioaqua con Vitamina C 50 ml",
+		"sort_description": "Crema facial con vitamina C que ayuda a reducir la apariencia de manchas, iluminar el rostro y unificar el tono de la piel. Aporta hidratación y suavidad, mejorando la apariencia de líneas finas y signos de fatiga. Ideal para el cuidado diario a partir de los 20 años.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de la aplicación.",
+			"Aplicar una cantidad adecuada en rostro y cuello.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Usar mañana y noche.",
+			"Aplicar protector solar durante el día."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 1
 	}
 ]
