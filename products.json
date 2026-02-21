@@ -17,7 +17,7 @@
 			"Masajea suavemente en el rostro."
 		],
 		"available": true,
-		"price": 38.0,
+		"price": 32.0,
 		"menu": 2
 	},
 	{
@@ -103,7 +103,7 @@
 			"img/suero-acido-hialuronico-arroz-100ml/2-suero-acido-hialuronico-arroz-100ml.jpg",
 			"img/suero-acido-hialuronico-arroz-100ml/3-suero-acido-hialuronico-arroz-100ml.jpg"
 		],
-		"title": "Esencia Facial de Ácido Hialurónico de Arroz 15ml",
+		"title": "Esencia Facial de Ácido Hialurónico de Arroz 100ml",
 		"sort_description": "Suero facial no graso y de fácil absorción con ácido hialurónico y extractos de arroz que hidrata la piel, ayuda a combatir la deshidratación y contribuye a que la piel se sienta elástica.",
 
 		"how_to_use": [
@@ -113,7 +113,7 @@
 			"Masajea suavemente en el rostro."
 		],
 		"available": true,
-		"price": 32.0,
+		"price": 38.0,
 		"menu": 2
 	},
 	{
@@ -274,7 +274,7 @@
 			"img/limpiador-facial-centella-asiatica/1-limpiador-facial-centella-asiatica.jpg",
 			"img/limpiador-facial-centella-asiatica/2-limpiador-facial-centella-asiatica.jpg"
 		],
-		"title": "Limpiador Facial de Centella Asiática",
+		"title": "Limpiador Facial de Centella Asiática 100g",
 		"sort_description": "Limpiador facial con centella asiática formulado especialmente para piel grasa. Ayuda a eliminar impurezas, controlar el exceso de grasa y calmar la piel, dejándola limpia, fresca y equilibrada. Su uso continuo contribuye a una apariencia más uniforme y saludable sin resecar.",
 
 		"how_to_use": [
@@ -401,7 +401,7 @@
 			"img/limpiador-facial-bioaqua-vitaminac/2-limpiador-facial-bioaqua-vitaminac.jpg",
 			"img/limpiador-facial-bioaqua-vitaminac/3-limpiador-facial-bioaqua-vitaminac.jpg"
 		],
-		"title": "Limpiador Facial Bioaqua con Vitamina C",
+		"title": "Limpiador Facial Bioaqua con Vitamina C 100g",
 		"sort_description": "Limpiador facial con vitamina C que ayuda a iluminar la piel, unificar el tono y reducir la apariencia de manchas. Elimina impurezas y exceso de grasa sin resecar, dejando el rostro más fresco, suave y con aspecto radiante. Ideal para uso diario en todo tipo de piel.",
 
 		"how_to_use": [
@@ -445,7 +445,7 @@
 			"img/serum-vitaminac-bioaqua/2-serum-vitaminac-bioaqua.jpg",
 			"img/serum-vitaminac-bioaqua/3-serum-vitaminac-bioaqua.jpg"
 		],
-		"title": "Sérum de Vitamina C 30Ml Bioaqua Antimanchas",
+		"title": "Esencia Facial de Vitamina C 30Ml Antimanchas",
 		"sort_description": "Sérum facial con vitamina C formulado para ayudar a reducir manchas, iluminar el rostro y unificar el tono de la piel. Su textura ligera se absorbe rápidamente, aportando hidratación y mejorando la apariencia de líneas finas. Ideal para pieles mayores de 25 años que buscan luminosidad y firmeza.",
 
 		"how_to_use": [
@@ -507,7 +507,7 @@
 		"id": 25,
 		"image": "img/serum-white/1-serum-white.jpg",
 		"all_images": ["img/serum-white/1-serum-white.jpg", "img/serum-white/2-serum-white.jpg", "img/serum-white/3-serum-white.jpg"],
-		"title": "Serum Vitamina C White Bioaqua 30 ml",
+		"title": "Esencia Facial Vitamina C White 30 ml",
 		"sort_description": "Sérum facial con vitamina C diseñado para aportar luminosidad, mejorar el tono desigual y atenuar la apariencia de manchas. Su textura ligera y de rápida absorción revitaliza la piel, dejándola más suave, fresca y con un aspecto radiante. Perfecto para complementar la rutina diaria de cuidado facial.",
 
 		"how_to_use": [
@@ -529,7 +529,7 @@
 			"img/limpiador-facial-white/2-limpiador-facial-white.jpg",
 			"img/limpiador-facial-white/3-limpiador-facial-white.jpg"
 		],
-		"title": "Limpiador Facial Vitamina C White Bioaqua 100g",
+		"title": "Limpiador Facial Vitamina C White 100g",
 		"sort_description": "Limpiador facial con vitamina C que ayuda a eliminar impurezas, exceso de grasa y residuos acumulados durante el día. Contribuye a iluminar la piel y mejorar la apariencia del tono desigual, dejando el rostro limpio, fresco y con sensación revitalizante. Apto para uso diario.",
 
 		"how_to_use": [
@@ -542,5 +542,50 @@
 		"available": true,
 		"price": 35.0,
 		"menu": 5
+	},
+	{
+		"id": 27,
+		"image": "img/limpiador-facial-rosas-acido-hialurónico/1-limpiador-facial-rosas-acido-hialurónico.jpg",
+		"all_images": [
+			"img/limpiador-facial-rosas-acido-hialurónico/1-limpiador-facial-rosas-acido-hialurónico.jpg",
+			"img/limpiador-facial-rosas-acido-hialurónico/2-limpiador-facial-rosas-acido-hialurónico.jpg",
+			"img/limpiador-facial-rosas-acido-hialurónico/3-limpiador-facial-rosas-acido-hialurónico.jpg"
+		],
+		"title": "Limpiador Facial de Rosas y Ácido Hialurónico 100g",
+		"sort_description": "Limpiador facial enriquecido con extracto de rosas y ácido hialurónico que limpia suavemente mientras aporta hidratación. Ayuda a refrescar, suavizar y mantener el equilibrio natural de la piel, dejando el rostro más luminoso, terso y con sensación de frescura inmediata. Ideal para uso diario.",
+
+		"how_to_use": [
+			"Humedecer el rostro con agua tibia.",
+			"Aplicar una pequeña cantidad en la palma de la mano.",
+			"Masajear suavemente sobre el rostro con movimientos circulares.",
+			"Enjuagar completamente con agua.",
+			"Usar por la mañana y por la noche."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 5
+	},
+
+	{
+		"id": 28,
+		"image": "img/serum-rosas-acido-hialuronico/1-serum-rosas-acido-hialuronico.jpg",
+		"all_images": [
+			"img/serum-rosas-acido-hialuronico/1-serum-rosas-acido-hialuronico.jpg",
+			"img/serum-rosas-acido-hialuronico/2-serum-rosas-acido-hialuronico.jpg",
+			"img/serum-rosas-acido-hialuronico/3-serum-rosas-acido-hialuronico.jpg"
+		],
+		"title": "Esencia Facial de Rosas y Acido Hialuronico",
+		"sort_description": "Sérum facial con extracto de rosas y ácido hialurónico que brinda hidratación intensa y mejora la suavidad de la piel. Ayuda a revitalizar el rostro, aportando frescura y luminosidad, mientras contribuye a mantener una apariencia más tersa y saludable. Ideal para todo tipo de piel.",
+
+		"how_to_use": [
+			"Aplicar sobre el rostro limpio y seco.",
+			"Colocar de 3 a 5 gotas en la palma de la mano.",
+			"Distribuir suavemente en rostro y cuello.",
+			"Masajear hasta su total absorción.",
+			"Usar mañana y noche para mejores resultados."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 2
 	}
 ]
