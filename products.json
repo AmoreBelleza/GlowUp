@@ -332,7 +332,7 @@
 		"menu": 2
 	},
 	{
-		"id": 16,
+		"id": 17,
 		"image": "img/contorno-ojos-centella-asiatica/1-contorno-ojos-centella-asiatica.jpg",
 		"all_images": [
 			"img/contorno-ojos-centella-asiatica/1-contorno-ojos-centella-asiatica.jpg",
@@ -354,7 +354,7 @@
 		"menu": 2
 	},
 	{
-		"id": 17,
+		"id": 18,
 		"image": "img/mascarilla-facial-iluminadora-hidratante-bioacua/1-mascarilla-facial-iluminadora-hidratante-bioacua.jpg",
 		"all_images": [
 			"img/mascarilla-facial-iluminadora-hidratante-bioacua/1-mascarilla-facial-iluminadora-hidratante-bioacua.jpg",
@@ -376,7 +376,7 @@
 		"menu": 4
 	},
 	{
-		"id": 18,
+		"id": 19,
 		"image": "img/parche-para-acne-pack-36-unid/1-parche-para-acne-pack-36-unid.jpg",
 		"all_images": ["img/parche-para-acne-pack-36-unid/1-parche-para-acne-pack-36-unid.jpg", "img/parche-para-acne-pack-36-unid/2-parche-para-acne-pack-36-unid.jpg"],
 		"title": "Parche para el Acné Pack 36 Unidades (Corazón y Estrella)",
@@ -394,7 +394,7 @@
 		"menu": 4
 	},
 	{
-		"id": 19,
+		"id": 20,
 		"image": "img/limpiador-facial-bioaqua-vitaminac/1-limpiador-facial-bioaqua-vitaminac.jpg",
 		"all_images": [
 			"img/limpiador-facial-bioaqua-vitaminac/1-limpiador-facial-bioaqua-vitaminac.jpg",
@@ -416,7 +416,7 @@
 		"menu": 5
 	},
 	{
-		"id": 20,
+		"id": 21,
 		"image": "img/contorno-ojos-vitaminac/1-contorno-ojos-vitaminac.jpg",
 		"all_images": [
 			"img/contorno-ojos-vitaminac/1-contorno-ojos-vitaminac.jpg",
@@ -438,7 +438,7 @@
 		"menu": 2
 	},
 	{
-		"id": 21,
+		"id": 22,
 		"image": "img/serum-vitaminac-bioaqua/1-serum-vitaminac-bioaqua.jpg",
 		"all_images": [
 			"img/serum-vitaminac-bioaqua/1-serum-vitaminac-bioaqua.jpg",
@@ -460,7 +460,7 @@
 		"menu": 2
 	},
 	{
-		"id": 22,
+		"id": 23,
 		"image": "img/crema-facial-bioaqua-vitaminac50ml/1-crema-facial-bioaqua-vitaminac50ml.jpg",
 		"all_images": [
 			"img/crema-facial-bioaqua-vitaminac50ml/1-crema-facial-bioaqua-vitaminac50ml.jpg",
@@ -480,5 +480,67 @@
 		"available": true,
 		"price": 32.0,
 		"menu": 1
+	},
+	{
+		"id": 24,
+		"image": "img/crema-hidratante-white/1-crema-hidratante-white.jpg",
+		"all_images": [
+			"img/crema-hidratante-white/1-crema-hidratante-white.jpg",
+			"img/crema-hidratante-white/2-crema-hidratante-white.jpg",
+			"img/crema-hidratante-white/3-crema-hidratante-white.jpg"
+		],
+		"title": "Crema Hidratante con Vitamina C White Bioaqua 50g",
+		"sort_description": "Crema hidratante con vitamina C que ayuda a iluminar, nutrir y unificar el tono de la piel. Su fórmula suaviza, aporta hidratación profunda y deja el rostro con un aspecto radiante y saludable. Ideal para uso diario y piel apagada.",
+
+		"how_to_use": [
+			"Aplicar sobre el rostro limpio y seco.",
+			"Extender uniformemente en rostro y cuello.",
+			"Realizar suaves movimientos ascendentes hasta absorber.",
+			"Utilizar todos los días, mañana y noche.",
+			"Complementar con protector solar en el día."
+		],
+		"available": true,
+		"price": 35.0,
+		"menu": 1
+	},
+	{
+		"id": 25,
+		"image": "img/serum-white/1-serum-white.jpg",
+		"all_images": ["img/serum-white/1-serum-white.jpg", "img/serum-white/2-serum-white.jpg", "img/serum-white/3-serum-white.jpg"],
+		"title": "Serum Vitamina C White Bioaqua 30 ml",
+		"sort_description": "Sérum facial con vitamina C diseñado para aportar luminosidad, mejorar el tono desigual y atenuar la apariencia de manchas. Su textura ligera y de rápida absorción revitaliza la piel, dejándola más suave, fresca y con un aspecto radiante. Perfecto para complementar la rutina diaria de cuidado facial.",
+
+		"how_to_use": [
+			"Aplicar sobre el rostro limpio y seco.",
+			"Colocar de 3 a 4 gotas en la palma de la mano.",
+			"Distribuir suavemente en rostro y cuello.",
+			"Masajear hasta que se absorba por completo.",
+			"Usar por la mañana o noche y aplicar protector solar durante el día."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 2
+	},
+	{
+		"id": 26,
+		"image": "img/limpiador-facial-white/1-limpiador-facial-white.jpg",
+		"all_images": [
+			"img/limpiador-facial-white/1-limpiador-facial-white.jpg",
+			"img/limpiador-facial-white/2-limpiador-facial-white.jpg",
+			"img/limpiador-facial-white/3-limpiador-facial-white.jpg"
+		],
+		"title": "Limpiador Facial Vitamina C White Bioaqua 100g",
+		"sort_description": "Limpiador facial con vitamina C que ayuda a eliminar impurezas, exceso de grasa y residuos acumulados durante el día. Contribuye a iluminar la piel y mejorar la apariencia del tono desigual, dejando el rostro limpio, fresco y con sensación revitalizante. Apto para uso diario.",
+
+		"how_to_use": [
+			"Humedecer el rostro con agua.",
+			"Aplicar una pequeña cantidad del producto en la mano.",
+			"Masajear suavemente sobre la piel con movimientos circulares.",
+			"Enjuagar con abundante agua.",
+			"Utilizar mañana y noche para mejores resultados."
+		],
+		"available": true,
+		"price": 35.0,
+		"menu": 5
 	}
 ]
