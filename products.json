@@ -587,5 +587,146 @@
 		"available": true,
 		"price": 32.0,
 		"menu": 2
+	},
+	{
+		"id": 29,
+		"image": "img/hidratante-corporal-facial-aromafrutal-rhenuks/1-hidratante-corporal-facial-aromafrutal-rhenuks.jpg",
+		"all_images": [
+			"img/hidratante-corporal-facial-aromafrutal-rhenuks/1-hidratante-corporal-facial-aromafrutal-rhenuks.jpg",
+			"img/hidratante-corporal-facial-aromafrutal-rhenuks/2-hidratante-corporal-facial-aromafrutal-rhenuks.jpg"
+		],
+		"title": "Hydra Soul – Crema Hidratante Corporal",
+		"sort_description": "Crema hidratante para cuerpo y rostro con agradable aroma frutal que nutre y suaviza la piel. Su fórmula ligera de rápida absorción ayuda a mantener la hidratación diaria, dejando una sensación fresca, tersa y delicadamente perfumada. Apta para todo tipo de piel.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel limpia y seca.",
+			"Extender uniformemente en rostro y cuerpo.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Usar diariamente según necesidad."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 30,
+		"image": "img/hydra-soul–crema-hidratante-corporal/1-hydra-soul–crema-hidratante-corporal.jpg",
+		"all_images": [
+			"img/hydra-soul–crema-hidratante-corporal/1-hydra-soul–crema-hidratante-corporal.jpg",
+			"img/hydra-soul–crema-hidratante-corporal/2-hydra-soul–crema-hidratante-corporal.jpg",
+			"img/hydra-soul–crema-hidratante-corporal/3-hydra-soul–crema-hidratante-corporal.jpg"
+		],
+		"title": "Hydra Soul – Crema Hidratante Corporal",
+		"sort_description": "Crema corporal formulada para brindar hidratación prolongada y suavidad inmediata. Su textura ligera se absorbe fácilmente, ayudando a mantener la piel nutrida, fresca y con apariencia saludable durante todo el día. Ideal para el cuidado diario de todo tipo de piel.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel limpia y seca.",
+			"Extender una cantidad adecuada en todo el cuerpo.",
+			"Masajear con movimientos circulares hasta su absorción.",
+			"Utilizar diariamente, especialmente después del baño."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 31,
+		"image": "img/exfoliante-hidratante-babasoul250g/1-exfoliante-hidratante-babasoul250g.jpg",
+		"all_images": [
+			"img/exfoliante-hidratante-babasoul250g/1-exfoliante-hidratante-babasoul250g.jpg",
+			"img/exfoliante-hidratante-babasoul250g/2-exfoliante-hidratante-babasoul250g.jpg",
+			"img/exfoliante-hidratante-babasoul250g/3-exfoliante-hidratante-babasoul250g.jpg"
+		],
+		"title": "Exfoliante Hidratante Babasoul 250g",
+		"sort_description": "Exfoliante hidratante para cuerpo y rostro con deliciosa fragancia a frutas rojas. Ayuda a remover células muertas, limpiar profundamente y mejorar la textura de la piel sin resecar. Deja una sensación suave, renovada y delicadamente perfumada. Ideal para incluir en la rutina semanal de cuidado.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel húmeda.",
+			"Masajear suavemente con movimientos circulares, evitando el contorno de ojos.",
+			"Enjuagar con abundante agua.",
+			"Usar 2 a 3 veces por semana.",
+			"Aplicar crema hidratante después de la exfoliación"
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 32,
+		"image": "img/emulsion-corporal-melek/1-emulsion-corporal-melek.jpg",
+		"all_images": ["img/emulsion-corporal-melek/1-emulsion-corporal-melek.jpg", "img/emulsion-corporal-melek/2-emulsion-corporal-melek.jpg"],
+		"title": "Emulsión Corporal Melek",
+		"sort_description": "Emulsión corporal de textura ligera que hidrata y suaviza la piel sin dejar sensación grasosa. Se absorbe rápidamente, ayudando a mantener la piel fresca, nutrida y con apariencia saludable durante el día. Ideal para uso diario y todo tipo de piel.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel limpia y seca.",
+			"Distribuir una cantidad adecuada en todo el cuerpo.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Utilizar diariamente, preferentemente después del baño."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 33,
+		"image": "img/protector-solar-barra-arroz/1-protector-solar-barra-arroz.jpg",
+		"all_images": [
+			"img/protector-solar-barra-arroz/1-protector-solar-barra-arroz.jpg",
+			"img/protector-solar-barra-arroz/2-protector-solar-barra-arroz.jpg",
+			"img/protector-solar-barra-arroz/3-protector-solar-barra-arroz.jpg"
+		],
+
+		"title": "Protector Solar en Barra de Arroz",
+		"sort_description": "Emulsión corporal de textura ligera que hidrata y suaviza la piel sin dejar sensación grasosa. Se absorbe rápidamente, ayudando a mantener la piel fresca, nutrida y con apariencia saludable durante el día. Ideal para uso diario y todo tipo de piel.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel limpia y seca.",
+			"Distribuir una cantidad adecuada en todo el cuerpo.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Utilizar diariamente, preferentemente después del baño."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 34,
+		"image": "img/exfoliante-crema-suavizante-cara-cuerpo–frutas/1-exfoliante-crema-suavizante-cara-cuerpo–frutas.jpg",
+		"all_images": [
+			"img/exfoliante-crema-suavizante-cara-cuerpo–frutas/1-exfoliante-crema-suavizante-cara-cuerpo–frutas.jpg",
+			"img/exfoliante-crema-suavizante-cara-cuerpo–frutas/2-exfoliante-crema-suavizante-cara-cuerpo–frutas.jpg",
+			"img/exfoliante-crema-suavizante-cara-cuerpo–frutas/3-exfoliante-crema-suavizante-cara-cuerpo–frutas.jpg"
+		],
+		"title": "Exfoliante en Crema Suavizante para Cara y Cuerpo – Frutas",
+		"sort_description": "Exfoliante en crema con aroma frutal que ayuda a eliminar células muertas e impurezas mientras suaviza la piel. Su fórmula cremosa limpia sin resecar, dejando una textura más lisa, fresca y renovada. Ideal para complementar la rutina de cuidado facial y corporal.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel húmeda.",
+			"Masajear suavemente con movimientos circulares, evitando el contorno de ojos.",
+			"Enjuagar con abundante agua.",
+			"Usar 2 a 3 veces por semana.",
+			"Aplicar crema hidratante después de la exfoliación."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 35,
+		"image": "img/hidratante-skala400ml/1-hidratante-skala400ml.jpg",
+		"all_images": ["img/hidratante-skala400ml/1-hidratante-skala400ml.jpg"],
+		"title": "Hidratante Skala 400ml",
+		"sort_description": "Crema hidratante corporal de rápida absorción que nutre y suaviza la piel, dejándola con sensación fresca y confortable. Disponible en diferentes versiones para que elijas tu aroma o beneficio favorito. Ideal para el cuidado diario y para mantener la piel hidratada todo el día.",
+
+		"how_to_use": [
+			"Aplicar sobre la piel limpia y seca.",
+			"Distribuir uniformemente en el cuerpo.",
+			"Masajear suavemente hasta su completa absorción.",
+			"Utilizar diariamente según necesidad."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
 	}
 ]
