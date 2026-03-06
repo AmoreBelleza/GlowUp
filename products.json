@@ -728,5 +728,43 @@
 		"available": true,
 		"price": 30.0,
 		"menu": 1
+	},
+	{
+		"id": 36,
+		"image": "img/hidratante-skala400ml/1-hidratante-skala400ml.jpg",
+		"all_images": [
+			"img/crema-para-manos-bioaqua/1-crema-para-manos-bioaqua.jpg",
+			"img/crema-para-manos-bioaqua/2-crema-para-manos-bioaqua.jpg",
+			"img/crema-para-manos-bioaqua/3-crema-para-manos-bioaqua.jpg"
+		],
+		"title": "Crema para Manos Bioaqua",
+		"sort_description": "Crema para manos formulada para hidratar, suavizar y mejorar la apariencia del tono de la piel. Su textura ligera nutre profundamente y ayuda a mantener las manos suaves, protegidas y con un aspecto más uniforme. Ideal para el cuidado diario.",
+
+		"how_to_use": [
+			"Aplicar una pequeña cantidad sobre las manos limpias y secas.",
+			"Masajear suavemente hasta que se absorba por completo.",
+			"Prestar atención a zonas resecas como nudillos y cutículas.",
+			"Reaplicar durante el día según sea necesario."
+		],
+		"available": true,
+		"price": 5.0,
+		"menu": 1
+	},
+	{
+		"id": 37,
+		"image": "img/protector-solar-facial-bioacua/1-protector-solar-facial-bioacua.jpg",
+		"all_images": ["img/protector-solar-facial-bioacua/1-protector-solar-facial-bioacua.jpg"],
+		"title": "Protector Solar Facial Bioacua",
+		"sort_description": "Protector solar diseñado para ayudar a proteger la piel contra los rayos UVA y UVB. Su fórmula ligera contribuye a prevenir manchas, resequedad y signos del envejecimiento causados por el sol, manteniendo la piel hidratada y con apariencia saludable. Ideal para uso diario.",
+
+		"how_to_use": [
+			"Aplicar una cantidad suficiente sobre la piel limpia y seca.",
+			"Extender uniformemente en rostro, cuello y zonas expuestas.",
+			"Aplicar 15 a 20 minutos antes de la exposición al sol.",
+			"Reaplicar cada 2 a 3 horas o después de nadar o sudar."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 3
 	}
 ]
