@@ -687,8 +687,8 @@
 			"Utilizar diariamente, preferentemente después del baño."
 		],
 		"available": true,
-		"price": 30.0,
-		"menu": 1
+		"price": 16.0,
+		"menu": 3
 	},
 	{
 		"id": 34,
@@ -766,5 +766,88 @@
 		"available": true,
 		"price": 30.0,
 		"menu": 3
+	},
+	{
+		"id": 38,
+		"image": "img/serum-hidratacion-intensiva-ah/1-serum-hidratacion-intensiva-ah.jpg",
+		"all_images": [
+			"img/serum-hidratacion-intensiva-ah/1-serum-hidratacion-intensiva-ah.jpg",
+			"img/serum-hidratacion-intensiva-ah/2-serum-hidratacion-intensiva-ah.jpg",
+			"img/serum-hidratacion-intensiva-ah/3-serum-hidratacion-intensiva-ah.jpg"
+		],
+		"title": "Esencia Facial Hidratación Intensiva con Ácido Hialurónico 30ml",
+		"sort_description": "Sérum facial formulado con ácido hialurónico que aporta hidratación profunda y ayuda a mantener la piel suave y flexible. Su textura ligera se absorbe rápidamente, contribuyendo a mejorar la apariencia del rostro y dejando una sensación fresca, tersa y revitalizada.",
+		"how_to_use": [
+			"Limpiar el rostro antes de aplicar el producto.",
+			"Colocar unas gotas del sérum en la palma de la mano.",
+			"Aplicar suavemente sobre rostro y cuello.",
+			"Masajear hasta que el producto se absorba completamente.",
+			"Utilizar en la mañana y en la noche."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 39,
+		"image": "img/crema-facial-ah/1-crema-facial-ah.jpg",
+		"all_images": ["img/crema-facial-ah/1-crema-facial-ah.jpg", "img/crema-facial-ah/2-crema-facial-ah.jpg", "img/crema-facial-ah/3-crema-facial-ah.jpg"],
+		"title": "Crema Facial con Ácido Hialurónico",
+		"sort_description": "Crema facial con ácido hialurónico diseñada para brindar hidratación profunda y mejorar la suavidad de la piel. Ayuda a mantener el rostro más terso, fresco y con apariencia saludable, aportando elasticidad y confort durante el día. Ideal para complementar la rutina diaria de cuidado facial.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de aplicar la crema.",
+			"Tomar una pequeña cantidad del producto.",
+			"Extender suavemente en rostro y cuello.",
+			"Masajear con movimientos circulares hasta su absorción.",
+			"Utilizar por la mañana y por la noche."
+		],
+		"available": true,
+		"price": 32.0,
+		"menu": 1
+	},
+	{
+		"id": 40,
+		"image": "img/serum-facial-retinol-ah/1-serum-facial-retinol-ah.jpg",
+		"all_images": [
+			"img/serum-facial-retinol-ah/1-serum-facial-retinol-ah.jpg",
+			"img/serum-facial-retinol-ah/2-serum-facial-retinol-ah.jpg",
+			"img/serum-facial-retinol-ah/3-serum-facial-retinol-ah.jpg"
+		],
+		"title": "Esencia Facial Antiedad con Retinol y Ácido Hialurónico 30ml",
+		"sort_description": "Sérum facial concentrado con retinol y ácido hialurónico que ayuda a mejorar la textura de la piel, aportar hidratación y suavizar la apariencia de líneas finas. Su fórmula favorece una piel más firme, luminosa y con aspecto renovado. Ideal para complementar la rutina de cuidado facial.",
+
+		"how_to_use": [
+			"Aplicar sobre el rostro limpio y seco.",
+			"Colocar 2 o 3 gotas en la palma de la mano.",
+			"Distribuir suavemente en rostro y cuello.",
+			"Masajear hasta su completa absorción.",
+			"Usar preferentemente por la noche y aplicar protector solar durante el día."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
+	},
+	{
+		"id": 40,
+		"image": "img/crema-hidratante-retinol/1-crema-hidratante-retinol.jpg",
+		"all_images": [
+			"img/crema-hidratante-retinol/1-crema-hidratante-retinol.jpg",
+			"img/crema-hidratante-retinol/2-crema-hidratante-retinol.jpg",
+			"img/crema-hidratante-retinol/3-crema-hidratante-retinol.jpg"
+		],
+		"title": "Crema Hidratante con Retinol",
+		"sort_description": "Crema facial con retinol formulada para hidratar la piel y mejorar su apariencia general. Contribuye a suavizar la textura del rostro y mantener la piel más firme y luminosa. Su uso regular ayuda a que la piel luzca más uniforme, suave y revitalizada.",
+
+		"how_to_use": [
+			"Limpiar el rostro antes de aplicar la crema.",
+			"Tomar una pequeña cantidad del producto.",
+			"Extender suavemente en rostro y cuello.",
+			"Masajear hasta que se absorba completamente.",
+			"Usar preferentemente por la noche y aplicar protector solar durante el día."
+		],
+		"available": true,
+		"price": 30.0,
+		"menu": 1
 	}
 ]
