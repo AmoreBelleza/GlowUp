@@ -23,12 +23,14 @@ Sitio web elegante y moderno para catálogo de productos de belleza y cosmético
 ## 🎯 Funcionalidades Principales
 
 ### Menú de Navegación Deslizante
+
 - Navegación con flechas
 - Arrastre con mouse o touch
 - Transiciones suaves
 - Indicador de sección activa
 
 ### Tarjetas de Productos
+
 - Imágenes optimizadas
 - Badges de estado (Disponible, Sin Stock, Promo, Nuevo)
 - Precios destacados
@@ -38,6 +40,7 @@ Sitio web elegante y moderno para catálogo de productos de belleza y cosmético
 ## 🛠️ Instalación
 
 1. Clona el repositorio:
+
 ```bash
 git clone https://github.com/tu-usuario/amore-belleza.git
 ```
@@ -49,17 +52,21 @@ git clone https://github.com/tu-usuario/amore-belleza.git
 ## 🎨 Personalización
 
 ### Cambiar Colores
+
 Modifica las variables en `style.css`:
+
 ```css
 :root {
-  --primary-color: #ffe5ec;
-  --text-color: #333;
-  --accent-color: #a8d5ba;
+	--primary-color: #ffe5ec;
+	--text-color: #333;
+	--accent-color: #a8d5ba;
 }
 ```
 
 ### Agregar Productos
+
 Duplica el bloque de producto en `index.html` y actualiza:
+
 - Imagen (`src`)
 - Título
 - Descripción
@@ -78,24 +85,26 @@ El proyecto incluye configuración de Prettier para mantener código consistente
 
 ```json
 {
-  "semi": true,
-  "singleQuote": true,
-  "printWidth": 180,
-  "tabWidth": 1,
-  "useTabs": true
+	"semi": true,
+	"singleQuote": true,
+	"printWidth": 180,
+	"tabWidth": 1,
+	"useTabs": true
 }
 ```
 
 ## 👤 Autor
 
 **Amore Belleza**
+
 - Sitio web de productos de belleza y cosméticos
 
 ## 📞 Contacto
 
 ¿Preguntas o sugerencias? Contáctanos:
+
 - 📧 Email: alex.9407.ap@gmail.com
 
 ---
 
-Hecho con 💕 por el equipo de AsiSure
+Hecho con 💕 por el equipo de AsiSure.
